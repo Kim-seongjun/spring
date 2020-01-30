@@ -1,0 +1,6 @@
+
+1월 29, 2020 09:06:04.45 NEW SESSION
+1월 29, 2020 09:06:04.45 [0129/090604.436:ERROR:file_io.cc(134)] WriteFile: 파이프가 닫히는 중입니다. (0xE8)
+
+1월 30, 2020 10:11:09.63 NEW SESSION
+1월 30, 2020 10:11:09.63 [4564:5260:0130/101109.629:ERROR:CONSOLE(764)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.google.com') does not match the recipient window's origin ('chrome-search://local-ntp').", source: chrome-search://most-visited/single.js (764)

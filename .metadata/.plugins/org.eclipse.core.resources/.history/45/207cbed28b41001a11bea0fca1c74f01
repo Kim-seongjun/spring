@@ -1,0 +1,10 @@
+package com.icia.www.service;
+
+import org.springframework.stereotype.Component;
+
+public class Employee extends Person {
+	@Component
+	public String sleep() {
+		return "사람은 6시간잡니까?";
+	}
+}

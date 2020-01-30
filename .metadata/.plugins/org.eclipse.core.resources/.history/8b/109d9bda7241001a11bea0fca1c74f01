@@ -1,0 +1,17 @@
+package com.icia.www;
+
+public class Cha implements Test {
+
+	@Override
+	public void showName() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

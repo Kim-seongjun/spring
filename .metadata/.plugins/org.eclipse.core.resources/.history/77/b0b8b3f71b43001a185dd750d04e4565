@@ -1,0 +1,15 @@
+package com.board.icia.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+//@Getter@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Member {
+	private String id;
+	private String pw;	
+}

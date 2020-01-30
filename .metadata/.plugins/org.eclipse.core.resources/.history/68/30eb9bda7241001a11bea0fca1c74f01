@@ -1,0 +1,16 @@
+package com.icia.www;
+
+public class Cha implements Test {
+
+	@Override
+	public void showName() {
+		System.out.println("Cha");
+	}
+
+	@Override
+	public String getName() {
+		
+		return "Cha";
+	}
+
+}
