@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="com.icia.www.service.Student"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.icia.www.service.Person"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
@@ -12,10 +11,16 @@
 <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
 <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
 <fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.board.icia.bto.Member"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
 <fullyQualifiedTypeName name="com.board.icia.dao.IMemberDao"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.type.Alias"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>

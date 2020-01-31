@@ -6,13 +6,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 //@Getter@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Alias("member")
 @Data
 public class Member {
-	private String id;
-	private String pw;	
+	private String m_id;
+	private String m_pwd;	
+	private String m_name;	
+	private String m_birth;	
+	private String m_addr;	
+	private String m_phone;	
+	private int m_point;
+	
+	private String g_name; //등급이름
 }

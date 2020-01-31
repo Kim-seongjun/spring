@@ -14,17 +14,42 @@ import com.board.icia.service.MemberManagement;
 
 @Controller
 public class HomeController {
-   
-   private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-   
-   @Autowired
-   private MemberManagement mm;
-   
-   @RequestMapping(value = "/", method = RequestMethod.GET)
-   public ModelAndView home() {
-      
-      ModelAndView mav=mm.access();
-      return mav;
-   }
-   
-}
+
+	@Autowired
+	private MemberManagement mm; // 회원관리 서비스 (BL)
+
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+
+	private ModelAndView mav;
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView home() {
+		logger.info("로그인화면으로 이동");
+		mav = new ModelAndView();
+		mav.setViewName("home"); // 로그인 화면
+		
+		return mav;
+	}
+	@RequestMapping(value = "/access", method = RequestMethod.POST)
+	public ModelAndView access(Member mb) {
+		logger.info("로그인화면으로 이동");
+		mav = mm.memberAccess(mb);
+		//logger.info("id="+mb.getM_id());
+		System.out.println("id="+mb.getM_id());
+		//logger.info("id="+mb.getM_pwd());
+		System.out.println("pw="+mb.getM_pwd());
+		//mav.setViewName("home"); // 로그인 화면
+		return mav;
+	}
+	@RequestMapping(value = "/joinfrm", method = RequestMethod.GET)
+	public ModelAndView joinFrm() {
+		mav=new ModelAndView();
+		mav.setViewName("joinFrm"); //jsp
+		return mav;
+	}
+	@RequestMapping(value = "/memberjoin", method = RequestMethod.POST)
+	public ModelAndView memberjoin(Member mb) {
+		mav=mm.memberjoin(mb);
+		return mav;
+	} 
+}//Con End

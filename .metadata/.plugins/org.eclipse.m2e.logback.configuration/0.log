@@ -1897,3 +1897,731 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:oj
 2020-01-30 13:58:50,793 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2020-01-30 13:58:50,797 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-01-30 13:58:50,798 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-30 16:57:00,063 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-31 08:41:51,165 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-31 08:55:44,803 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:55:44,810 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 08:55:44,835 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:55:44,836 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 08:55:48,069 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:55:48,072 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 08:55:48,089 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:55:48,090 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 08:57:04,711 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:57:04,764 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 08:57:04,766 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 08:57:04,771 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:05:00,392 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:00,395 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:05:00,398 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:00,399 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:05:07,118 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:07,120 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:05:07,127 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:07,128 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:05:49,259 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:49,264 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:05:49,266 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:05:49,267 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:10:23,568 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:10:23,571 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:10:23,574 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:10:23,576 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:18:46,955 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:18:46,964 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:18:46,968 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:18:46,969 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:50:09,676 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:50:09,699 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:50:09,700 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:50:09,701 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:51:21,593 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:51:21,594 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:51:21,596 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:51:21,596 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:52:23,147 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:52:23,148 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:52:23,150 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:52:23,151 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:53:11,469 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:53:11,470 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 09:53:11,471 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:53:11,472 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:53:59,195 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:53:59,196 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:53:59,198 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:53:59,198 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:58:27,949 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:58:27,950 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:58:27,951 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:58:27,951 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:59:35,319 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:59:35,319 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 09:59:35,320 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 09:59:35,321 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:25,191 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:25,191 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:25,194 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:25,194 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:46,635 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:46,635 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:46,637 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:46,637 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:50,988 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:50,989 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:03:50,990 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:03:50,990 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:04:16,265 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:04:16,266 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:04:16,267 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:04:16,267 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:05:02,373 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:05:02,374 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:05:02,375 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:05:02,376 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:09:02,453 [Worker-50: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:09:05,089 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.pom
+2020-01-31 10:09:08,971 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.pom
+2020-01-31 10:09:09,252 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.pom
+2020-01-31 10:09:09,626 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.pom
+2020-01-31 10:09:09,866 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.pom
+2020-01-31 10:09:11,201 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.pom
+2020-01-31 10:09:11,500 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.pom
+2020-01-31 10:09:11,747 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.pom
+2020-01-31 10:09:12,195 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.pom
+2020-01-31 10:09:12,485 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.pom
+2020-01-31 10:09:12,733 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.pom
+2020-01-31 10:09:13,221 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.pom
+2020-01-31 10:09:13,537 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.pom
+2020-01-31 10:09:13,776 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.pom
+2020-01-31 10:09:14,873 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.pom
+2020-01-31 10:09:15,162 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.pom
+2020-01-31 10:09:15,402 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.pom
+2020-01-31 10:09:16,381 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.pom
+2020-01-31 10:09:16,671 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.pom
+2020-01-31 10:09:16,915 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.pom
+2020-01-31 10:09:17,323 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.pom
+2020-01-31 10:09:18,680 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.pom
+2020-01-31 10:09:19,895 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.pom
+2020-01-31 10:09:20,138 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.pom
+2020-01-31 10:09:20,831 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.pom
+2020-01-31 10:09:21,072 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.pom
+2020-01-31 10:09:21,313 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.pom
+2020-01-31 10:09:21,599 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.pom
+2020-01-31 10:09:21,840 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.pom
+2020-01-31 10:09:22,784 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.pom
+2020-01-31 10:09:23,143 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:23,395 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:23,873 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:24,155 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.pom
+2020-01-31 10:09:25,415 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.pom
+2020-01-31 10:09:25,775 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.pom
+2020-01-31 10:09:26,056 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.pom
+2020-01-31 10:09:27,375 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.pom
+2020-01-31 10:09:27,635 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.pom
+2020-01-31 10:09:27,964 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:29,315 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:29,569 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.pom
+2020-01-31 10:09:29,855 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.pom
+2020-01-31 10:09:30,097 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.pom
+2020-01-31 10:09:30,337 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.pom
+2020-01-31 10:09:30,619 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.pom
+2020-01-31 10:09:30,863 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.pom
+2020-01-31 10:09:31,105 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.pom
+2020-01-31 10:09:31,389 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.pom
+2020-01-31 10:09:32,740 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.pom
+2020-01-31 10:09:33,754 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.1.RELEASE/spring-expression-5.2.1.RELEASE.pom
+2020-01-31 10:09:34,062 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar
+2020-01-31 10:09:34,342 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar
+2020-01-31 10:09:34,623 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar
+2020-01-31 10:09:34,903 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar
+2020-01-31 10:09:35,182 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar
+2020-01-31 10:09:35,461 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar
+2020-01-31 10:09:35,739 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar
+2020-01-31 10:09:36,020 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar
+2020-01-31 10:09:36,299 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar
+2020-01-31 10:09:36,582 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar
+2020-01-31 10:09:36,859 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2020-01-31 10:09:37,122 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar
+2020-01-31 10:09:50,799 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar
+2020-01-31 10:09:50,939 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar
+2020-01-31 10:09:51,895 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar
+2020-01-31 10:09:52,035 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar
+2020-01-31 10:09:53,806 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar
+2020-01-31 10:09:53,946 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar
+2020-01-31 10:09:57,643 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar
+2020-01-31 10:09:57,780 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar
+2020-01-31 10:09:57,920 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar
+2020-01-31 10:09:58,059 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar
+2020-01-31 10:09:59,282 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar
+2020-01-31 10:09:59,421 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar
+2020-01-31 10:10:03,225 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar
+2020-01-31 10:10:03,365 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar
+2020-01-31 10:10:07,977 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar
+2020-01-31 10:10:08,116 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar
+2020-01-31 10:10:09,614 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar
+2020-01-31 10:10:09,752 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar
+2020-01-31 10:10:10,978 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar
+2020-01-31 10:10:11,180 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2020-01-31 10:10:12,952 [Worker-50: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2020-01-31 10:10:15,264 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:10:15,265 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:10:15,266 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:10:15,267 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:10:15,293 [Worker-50: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:10:15,294 [Worker-50: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:10:15,300 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:10:16,942 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:17,911 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:19,074 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:19,163 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.2.2.RELEASE
+2020-01-31 10:10:19,922 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:20,591 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:22,110 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:22,206 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.2.2.RELEASE
+2020-01-31 10:10:22,820 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:23,530 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:24,851 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:24,940 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.2.2.RELEASE
+2020-01-31 10:10:25,564 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:26,235 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:27,617 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:27,714 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.2.2.RELEASE
+2020-01-31 10:10:28,343 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:29,087 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:29,248 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:29,374 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.2.2.RELEASE
+2020-01-31 10:10:30,045 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:30,709 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:31,817 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:32,098 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.2.2.RELEASE
+2020-01-31 10:10:32,681 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:33,311 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:34,980 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:35,082 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.2.2.RELEASE
+2020-01-31 10:10:35,640 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:36,370 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:37,520 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:37,608 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.2.2.RELEASE
+2020-01-31 10:10:38,177 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:38,898 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:39,863 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:40,133 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.2.2.RELEASE
+2020-01-31 10:10:40,788 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:41,442 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:42,442 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-sources.jar
+2020-01-31 10:10:42,550 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.2.2.RELEASE
+2020-01-31 10:10:43,212 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar
+2020-01-31 10:10:43,895 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar
+2020-01-31 10:10:45,401 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar
+2020-01-31 10:10:45,486 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:5.2.1.RELEASE
+2020-01-31 10:10:47,577 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:10:47,578 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 10:10:47,582 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:10:47,584 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:12:03,115 [Worker-51: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:12:03,746 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.pom
+2020-01-31 10:12:06,009 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.pom
+2020-01-31 10:12:06,270 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.pom
+2020-01-31 10:12:06,573 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
+2020-01-31 10:12:06,822 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
+2020-01-31 10:12:07,747 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
+2020-01-31 10:12:08,143 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar
+2020-01-31 10:12:08,438 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2020-01-31 10:12:08,729 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
+2020-01-31 10:12:08,981 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar
+2020-01-31 10:12:21,981 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar
+2020-01-31 10:12:22,130 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2020-01-31 10:12:22,728 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2020-01-31 10:12:22,878 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
+2020-01-31 10:12:23,178 [Worker-51: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
+2020-01-31 10:12:23,646 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:23,646 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:12:23,647 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:23,648 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:12:23,648 [Worker-51: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:12:23,648 [Worker-51: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:12:23,654 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:25,525 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2-sources.jar
+2020-01-31 10:12:25,713 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:25,714 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 10:12:25,717 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:25,718 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:12:26,856 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2-sources.jar
+2020-01-31 10:12:29,758 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2-sources.jar
+2020-01-31 10:12:29,912 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.2
+2020-01-31 10:12:30,541 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-01-31 10:12:31,521 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-01-31 10:12:32,709 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-01-31 10:12:32,786 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2020-01-31 10:12:33,434 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
+2020-01-31 10:12:36,355 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
+2020-01-31 10:12:38,653 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar
+2020-01-31 10:12:38,821 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jcl-over-slf4j:1.7.25
+2020-01-31 10:12:39,106 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:39,108 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:12:39,111 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:12:39,112 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:13:01,174 [Worker-54: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:13:01,381 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:13:01,382 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:13:01,385 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:13:01,385 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:13:01,386 [Worker-54: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:13:01,386 [Worker-54: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:13:01,391 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:16:02,745 [Worker-53: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:16:03,189 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:03,466 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:05,478 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:05,708 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:06,784 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:07,070 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2020-01-31 10:16:07,310 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2020-01-31 10:16:07,368 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2020-01-31 10:16:07,557 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2020-01-31 10:16:07,616 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2020-01-31 10:16:07,841 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2020-01-31 10:16:07,855 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2020-01-31 10:16:08,096 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2020-01-31 10:16:08,447 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2020-01-31 10:16:09,187 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.pom
+2020-01-31 10:16:09,426 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.pom
+2020-01-31 10:16:09,567 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2020-01-31 10:16:09,691 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.pom
+2020-01-31 10:16:09,988 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020-01-31 10:16:10,266 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2020-01-31 10:16:10,543 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar
+2020-01-31 10:16:10,784 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020-01-31 10:16:14,135 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2020-01-31 10:16:14,296 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020-01-31 10:16:18,815 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020-01-31 10:16:18,950 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2020-01-31 10:16:19,218 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2020-01-31 10:16:19,357 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar
+2020-01-31 10:16:21,098 [Worker-19: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar
+2020-01-31 10:16:22,274 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020-01-31 10:16:22,416 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2020-01-31 10:16:22,843 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2020-01-31 10:16:22,986 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar
+2020-01-31 10:16:25,687 [Worker-53: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar
+2020-01-31 10:16:26,656 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:16:26,657 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:16:26,659 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:16:26,660 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:16:26,660 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:16:26,660 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:16:26,672 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:16:28,400 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2020-01-31 10:16:32,385 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2020-01-31 10:17:11,042 [Worker-53: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:17:11,442 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:17:11,445 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 10:17:11,448 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:17:11,448 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:17:11,449 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:17:11,450 [Worker-53: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:17:11,456 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:17:16,327 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2020-01-31 10:17:16,543 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2020-01-31 10:17:17,298 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2020-01-31 10:17:18,175 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2020-01-31 10:17:18,505 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2020-01-31 10:17:18,572 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2020-01-31 10:17:19,326 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jahia.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar
+2020-01-31 10:17:19,917 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar
+2020-01-31 10:17:21,007 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar
+2020-01-31 10:17:21,135 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.2.2.RELEASE
+2020-01-31 10:17:21,140 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2020-01-31 10:17:21,144 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2020-01-31 10:17:21,150 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.2.2.RELEASE
+2020-01-31 10:19:25,416 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:19:25,417 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 10:19:25,420 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:19:25,421 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:23:28,371 [Worker-57: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.board:icia:1.0.0-BUILD-SNAPSHOT @ E:\springwork\SpringMVCBoard\pom.xml.
+2020-01-31 10:23:28,632 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:23:28,634 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:23:28,635 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:23:28,635 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 10:23:28,635 [Worker-57: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCBoard
+2020-01-31 10:23:28,635 [Worker-57: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCBoard
+2020-01-31 10:23:28,640 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:45:27,659 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-31 10:45:40,810 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:45:40,838 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 10:45:40,850 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:45:40,851 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:45:42,653 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:45:42,654 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:45:42,655 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 10:45:42,656 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 10:57:52,709 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-31 13:26:40,531 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:40,574 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:26:40,586 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:40,588 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:26:44,992 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:44,993 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:26:45,030 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:45,031 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:26:54,679 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:54,688 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:26:54,692 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:26:54,692 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:29:04,979 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:29:04,981 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:29:04,982 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:29:04,983 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:29:52,718 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:29:52,719 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:29:52,721 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:29:52,723 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:39:14,074 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:39:14,076 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:39:14,077 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:39:14,078 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:39:17,648 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:39:17,649 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:39:17,650 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:39:17,651 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:42:32,246 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:42:32,257 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:42:32,268 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:42:32,270 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:43:26,753 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:43:26,754 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:43:26,756 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:43:26,756 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:43:46,210 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:43:46,212 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:43:46,213 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:43:46,214 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:44:25,417 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:44:25,418 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:44:25,427 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:44:25,428 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:45:34,267 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:45:34,269 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:45:34,270 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:45:34,271 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:45:54,331 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:45:54,332 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:45:54,333 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:45:54,333 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:46:55,826 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:46:55,827 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:46:55,828 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:46:55,829 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:49:03,849 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:03,851 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:49:03,852 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:03,853 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:49:10,925 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:10,926 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:49:10,930 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:10,931 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:49:14,141 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:14,142 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:49:14,144 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:49:14,145 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:50:01,086 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:50:01,087 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:50:01,088 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:50:01,088 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:50:33,912 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:50:33,914 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:50:33,915 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:50:33,916 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:51:20,112 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:51:20,113 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 13:51:20,115 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:51:20,115 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:52:55,957 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:52:55,959 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:52:55,960 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:52:55,961 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 13:53:56,904 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:53:56,905 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 13:53:56,906 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 13:53:56,907 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:10:24,366 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:24,368 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:10:24,371 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:24,372 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:10:48,332 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:48,333 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:10:48,334 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:48,335 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:10:57,137 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:57,144 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:10:57,145 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:10:57,145 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:15:54,813 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:15:54,814 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:15:54,815 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:15:54,815 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:16:50,318 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:16:50,319 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:16:50,321 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:16:50,322 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:17:00,404 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:17:00,405 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:17:00,406 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:17:00,407 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:17:15,561 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:17:15,562 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:17:15,563 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:17:15,564 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:19:08,708 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:19:08,709 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:19:08,711 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:19:08,711 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:20:19,184 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:20:19,185 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:20:19,187 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:20:19,188 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:21:18,361 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:21:18,362 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:21:18,367 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:21:18,380 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:21:30,062 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:21:30,063 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:21:30,065 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:21:30,066 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:22:24,353 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:22:24,354 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:22:24,355 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:22:24,356 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:22:35,930 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:22:35,931 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:22:35,933 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:22:35,934 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:28:41,285 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:28:41,286 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:28:41,287 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:28:41,288 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:29:45,485 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:29:45,486 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 14:29:45,488 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:29:45,489 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:52:56,092 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:52:56,093 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:52:56,094 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:52:56,095 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:53:07,829 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:53:07,830 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:53:07,832 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:53:07,833 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:55:01,386 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:55:01,387 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:55:01,388 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:55:01,388 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:55:57,753 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:55:57,755 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:55:57,757 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:55:57,759 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:59:04,255 [Worker-86: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:59:04,256 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:59:04,257 [Worker-86: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:59:04,257 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:59:52,621 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:59:52,622 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 14:59:52,625 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 14:59:52,626 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:00:01,008 [Worker-91: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:00:01,009 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:00:01,010 [Worker-91: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:00:01,011 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:02:08,902 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:02:08,902 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:02:08,906 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:02:08,907 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:04:47,612 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:04:47,614 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:04:47,616 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:04:47,617 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:05:19,962 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:05:19,966 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:05:19,973 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:05:19,974 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:04,158 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:04,159 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:04,162 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:04,163 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:08,034 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:08,035 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:08,037 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:08,037 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:59,879 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:59,880 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:08:59,881 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:08:59,882 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:09:57,278 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:09:57,280 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:09:57,281 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:09:57,282 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:10:20,536 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:10:20,538 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:10:20,540 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:10:20,540 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:11:15,984 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:15,985 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:11:16,000 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:16,001 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:11:22,974 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:22,975 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:11:22,976 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:22,976 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:11:39,650 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:39,651 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:11:39,652 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:11:39,653 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:12:17,371 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:12:17,374 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:12:17,375 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:12:17,376 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:16:17,236 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:17,237 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:16:17,239 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:17,240 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:16:39,931 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:39,932 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:16:39,933 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:39,934 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:16:49,913 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:49,915 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:16:49,917 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:16:49,917 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:17:31,878 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:17:31,879 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:17:31,879 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:17:31,880 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:17:33,232 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:17:33,233 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:17:33,234 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:17:33,235 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:20:07,355 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:20:07,356 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:20:07,358 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:20:07,358 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:20:25,330 [Worker-103: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:20:25,331 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:20:25,333 [Worker-103: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:20:25,334 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:21:25,812 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:25,813 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:21:25,815 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:25,816 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:21:29,203 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:29,204 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:21:29,205 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:29,206 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:21:54,818 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:54,820 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:21:54,821 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:21:54,822 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:22:19,403 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:22:19,404 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:22:19,405 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:22:19,405 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:28:44,900 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:28:44,902 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:28:44,903 [Worker-88: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:28:44,904 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:28:59,853 [Worker-107: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:28:59,857 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:28:59,860 [Worker-107: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:28:59,861 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:29:14,517 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:14,517 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:29:14,518 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:14,519 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:29:19,741 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:19,742 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:29:19,744 [Worker-109: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:19,746 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:29:23,897 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:23,900 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:29:23,902 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:29:23,903 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:38:28,348 [Worker-116: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:38:28,350 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-31 15:38:28,351 [Worker-116: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:38:28,352 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:49:13,360 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:49:13,360 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:49:13,361 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:49:13,361 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:50:24,594 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:50:24,595 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:50:24,596 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:50:24,597 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:50:41,558 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:50:41,559 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:50:41,560 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:50:41,561 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 15:52:54,614 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:52:54,615 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 15:52:54,617 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 15:52:54,617 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:00:33,079 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:00:33,079 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:00:33,080 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:00:33,081 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:00:43,339 [Worker-129: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:00:43,340 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:00:43,341 [Worker-129: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:00:43,342 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:04:12,142 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:04:12,143 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:04:12,144 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:04:12,144 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:05:57,147 [Worker-125: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:05:57,149 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:05:57,150 [Worker-125: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:05:57,151 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:06:04,613 [Worker-131: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:04,614 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:06:04,615 [Worker-131: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:04,615 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:06:23,867 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:23,868 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:06:23,869 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:23,870 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:06:27,094 [Worker-131: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:27,095 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:06:27,095 [Worker-131: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:06:27,096 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:07:41,987 [Worker-126: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:07:41,988 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:07:41,989 [Worker-126: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:07:41,989 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:09:04,670 [Worker-130: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:09:04,671 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:09:04,672 [Worker-130: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:09:04,672 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:09:46,877 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:09:46,879 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:09:46,880 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:09:46,881 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:11:59,795 [Worker-134: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:11:59,797 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:11:59,798 [Worker-134: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:11:59,799 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:12:32,682 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:12:32,683 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:12:32,684 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:12:32,685 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:15:12,202 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:15:12,203 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:15:12,204 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:15:12,206 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:15:26,218 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:15:26,219 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:15:26,220 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:15:26,220 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-31 16:29:03,853 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:29:03,854 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-31 16:29:03,855 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-31 16:29:03,855 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
