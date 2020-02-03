@@ -3,6 +3,9 @@ package com.board.icia.service;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.request;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -21,31 +24,48 @@ import com.board.icia.dto.Member;
 public class MemberManagement {
 	@Autowired
 	private IMemberDao mDao;
-	@Autowired
-	private HttpServletRequest reqeust;
+
 
 	private ModelAndView mav;
 
-	public ModelAndView memberAccess(Member mb) {
+	private void HashMapTest(String id, String pwd) {
+		Map<String, String> hMap = new HashMap<>();
+		hMap.put("id", id);
+		hMap.put("pw", pwd);
+		boolean result = mDao.hashMapTest(hMap);
+		System.out.println("result="+result); //로그인 성공(true), 실패:false
+		hMap=mDao.hashMapTest2(id);
+		System.out.println("name="+hMap.get(id));
+	}
+	
+	public ModelAndView memberAccess(Member mb, HttpServletRequest req) {
 		mav = new ModelAndView();
 		String view = null;
 		// 스프링에선 복호화 메소드 없음.
 		BCryptPasswordEncoder pwdEncoder = new BCryptPasswordEncoder();
 		String pwdEncode = mDao.getSecurityPwd(mb.getM_id());
 		System.out.println("pw=" + pwdEncode);
-
+		
+			
+		//hashMap 로그인 테스트
+		HashMapTest(mb.getM_id(), pwdEncode);
+		
+	
 		if (pwdEncode != null) {
 			if (pwdEncoder.matches(mb.getM_pwd(), pwdEncode)) { // 비교
 				// 로그인 성공
-				HttpSession session = reqeust.getSession();
+				HttpSession session = req.getSession();
 				session.setAttribute("id", mb.getM_id());
 				// 로그인 후 회원정보를 화면 출력하기 위해
 				mb = mDao.getMemberInfo(mb.getM_id());
-				mav.addObject("mb", mb);
-				view = "boardList"; // jsp
+				session.setAttribute("mb", mb);
+				//mav.addObject("mb", mb); //request영역에 모델객체 저장
+				//view = "boardList"; // jsp
 				// view = "forward:/boardList"; //forward:url
+				view = "redirect:/boardlist"; //redirect:url, POST,GET -->
 			} else { // 비번오류
 				view = "home";
+				
 				mav.addObject("check", 2); // 로그인 실패
 			}
 		} else { // 아이디가 오류시
@@ -55,6 +75,10 @@ public class MemberManagement {
 		mav.setViewName(view);
 		return mav;
 	}
+
+
+	
+
 
 	public ModelAndView memberjoin(Member mb) {
 		mav = new ModelAndView();

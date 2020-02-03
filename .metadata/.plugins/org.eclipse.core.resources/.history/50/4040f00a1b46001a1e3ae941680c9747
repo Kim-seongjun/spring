@@ -1,0 +1,19 @@
+package com.board.icia.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.board.icia.dao.IBoardDao;
+
+
+@Service
+public class BoardManagement {
+	@Autowired
+	private IBoardDao bDao;
+
+	public ModelAndView getBoardList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

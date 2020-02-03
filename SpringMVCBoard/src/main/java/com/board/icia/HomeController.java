@@ -1,5 +1,7 @@
 package com.board.icia;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,9 +33,9 @@ public class HomeController {
 		return mav;
 	}
 	@RequestMapping(value = "/access", method = RequestMethod.POST)
-	public ModelAndView access(Member mb) {
+	public ModelAndView access(Member mb, HttpServletRequest req) {
 		logger.info("로그인화면으로 이동");
-		mav = mm.memberAccess(mb);
+		mav = mm.memberAccess(mb,req);
 		//logger.info("id="+mb.getM_id());
 		System.out.println("id="+mb.getM_id());
 		//logger.info("id="+mb.getM_pwd());
@@ -46,6 +48,11 @@ public class HomeController {
 		mav=new ModelAndView();
 		mav.setViewName("joinFrm"); //jsp
 		return mav;
+	}
+	@RequestMapping(value = "/logout", method = RequestMethod.POST)
+	public String logout(HttpServletRequest req) {
+		req.getSession().invalidate(); //세션초기화
+		return "home";
 	}
 	@RequestMapping(value = "/memberjoin", method = RequestMethod.POST)
 	public ModelAndView memberjoin(Member mb) {

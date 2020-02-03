@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringMVCBoard/src/main/java/com/board/icia/dao/mapper/memberMapper.xml&apos; to &apos;MemberMapper.xml&apos;" description="Rename resource &apos;memberMapper.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/board/icia/dao/mapper/memberMapper.xml" name="MemberMapper.xml" stamp="1580707775624" updateReferences="true"/>
+</session>

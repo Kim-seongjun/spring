@@ -32,6 +32,9 @@
 		if(chk==1){
 			alert("회원가입 성공");
 		}
+		if(chk==2){
+			alert("로그인 실패");
+		}
 	}
 	</script>
 </body>

@@ -1,0 +1,5 @@
+package com.board.icia.dto;
+
+public class Board {
+
+}
