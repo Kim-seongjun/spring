@@ -1,0 +1,13 @@
+package com.board.icia;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@RunWith
+@ContextConfiguration(location = "file.src/main/webapp/WEB-INF/spring/**/*-context.xml")
+public class MemberDaoTest {
+
+}

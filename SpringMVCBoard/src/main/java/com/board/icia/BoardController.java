@@ -18,13 +18,14 @@ public class BoardController {
 	ModelAndView mav;
 	
 	@RequestMapping(value = "/boardlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
-	public ModelAndView boardList(Integer pageNum, HttpServletRequest req) { //null
-		mav = bm.getBoardList(pageNum, req);
+	public ModelAndView boardList(Integer pageNum) { //null
+		mav = bm.getBoardList(pageNum);
 		return mav;
 	}
 	@RequestMapping(value = "/contents", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
-	public ModelAndView contents(Integer bNum, HttpServletRequest req) { //null
-		mav = bm.getContents(bNum, req);
+	public ModelAndView contents(Integer bNum) { //null
+		mav = bm.getContents(bNum);
 		return mav;
 	}
+
 }

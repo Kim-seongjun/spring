@@ -1,0 +1,12 @@
+package com.board.icia.dao;
+
+import java.util.List;
+
+import com.board.icia.dto.Board;
+import com.board.icia.dto.Member;
+
+public interface IBoardDao {
+
+	List<Board> getBoardList(int pNum);
+
+}

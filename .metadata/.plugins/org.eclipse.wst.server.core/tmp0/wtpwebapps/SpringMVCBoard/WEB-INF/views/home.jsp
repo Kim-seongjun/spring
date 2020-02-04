@@ -23,7 +23,7 @@
 			<td colspan="2" align="center" bgcolor="skyblue">com.board.icia</td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center"><a href="./joinfrm">회원가입</a></td>
+			<td colspan="2" align="center" bgcolor="skyblue"><a href="./joinfrm">회원가입</a></td>
 		</tr>
 	</table>
 </form>

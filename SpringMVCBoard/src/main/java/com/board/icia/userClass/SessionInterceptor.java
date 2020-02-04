@@ -14,15 +14,15 @@ public class SessionInterceptor extends HandlerInterceptorAdapter{
 		System.out.println("preHandler call");
 		if(request.getSession().getAttribute("id")==null) {
 			response.sendRedirect("./"); //home.jsp
-			return false;
+			return false; //controller 진입 금지
 		}
-		return true;
+		return true; //controller 진입 가능
 	}  
 
 	@Override
 	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,  //컨트룰러 후에 실행
 			ModelAndView modelAndView) throws Exception {
-		// TODO Auto-generated method stub
+		System.out.println("controller after call");
 		super.postHandle(request, response, handler, modelAndView);
 	} 
 	

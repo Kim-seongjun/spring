@@ -36,9 +36,7 @@ public class HomeController {
 	public ModelAndView access(Member mb, HttpServletRequest req) {
 		logger.info("로그인화면으로 이동");
 		mav = mm.memberAccess(mb,req);
-		//logger.info("id="+mb.getM_id());
 		System.out.println("id="+mb.getM_id());
-		//logger.info("id="+mb.getM_pwd());
 		System.out.println("pw="+mb.getM_pwd());
 		//mav.setViewName("home"); // 로그인 화면
 		return mav;

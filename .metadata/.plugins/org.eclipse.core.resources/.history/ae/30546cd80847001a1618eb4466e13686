@@ -1,0 +1,17 @@
+package com.board.icia.dao;
+
+import java.util.List;
+
+import com.board.icia.dto.Board;
+import com.board.icia.dto.Member;
+import com.board.icia.service.Reply;
+
+public interface IBoardDao {
+
+	List<Board> getBoardList(int pNum);
+
+	List<Reply> getReplyList(Integer bNum);
+
+	Board getContents(Integer bNum);
+
+}

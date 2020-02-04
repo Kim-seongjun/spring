@@ -4,3 +4,6 @@
 
 1월 30, 2020 10:11:09.63 NEW SESSION
 1월 30, 2020 10:11:09.63 [4564:5260:0130/101109.629:ERROR:CONSOLE(764)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.google.com') does not match the recipient window's origin ('chrome-search://local-ntp').", source: chrome-search://most-visited/single.js (764)
+
+2월 03, 2020 18:50:05.49 NEW SESSION
+2월 03, 2020 18:50:05.49 [6000:2456:0203/185005.407:ERROR:socket_stream.cc(218)] Closing stream with result -2

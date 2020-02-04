@@ -1,0 +1,18 @@
+package com.board.icia.dto;
+
+import org.apache.ibatis.type.Alias;
+
+import lombok.Data;
+import lombok.experimental.Accessors;
+
+@Alias("reply")
+@Accessors(chain=true)
+@Data
+public class Reply {
+	private int r_bnum; //원글 번호
+	private int r_num; //댓글 번호
+	private String r_contents; //댓글
+	private int r_bnum; //원글 번호
+	private int r_bnum; //원글 번호
+	private int r_bnum; //원글 번호
+}
