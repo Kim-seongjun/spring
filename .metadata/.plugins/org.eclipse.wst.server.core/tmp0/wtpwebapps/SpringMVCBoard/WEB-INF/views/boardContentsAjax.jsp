@@ -35,8 +35,8 @@
 <form name="rFrm" id="rFrm">
 	<table>
 		<tr>
-			<td><textarea rows="3" cols="50" name="r_contents"></textarea></td>
-			<td><input type="button" value="댓글전송" style="width: 70px;height: 50px;"></td>
+			<td><textarea rows="3" cols="50" name="r_contents" id="r_contents"></textarea></td>
+			<td><input type="button" value="댓글전송" onclick="replyInsert(${board.b_num})" style="width: 70px;height: 50px;"></td>
 		</tr>
 	</table>
 </form>
@@ -49,5 +49,38 @@
 	</tr>
 </c:forEach>
 </table>
+<script>
+	function replyInsert(bNum) {
+		var obj = $('#rFrm').serializeObject(); //js객체 생성{속성:값, 속성:값}
+		obj.r_bnum = bNum;
+		console.log(obj);
+		//js객체 --->json으로 변환
+		var jsonStr =JSON.stringify(obj); 
+		
+		
+		$.ajax({								
+			type:'post', //json으로 넘길땐 get은 안됨
+			url:'rest/replyinsert',
+			//1.쿼리스트링 방식
+			//data:{r_bnum:bNum, r_contents:$('#r_contents').val()},
+			//2.jQuery 방식
+			//data:$('#rFrm').serialize(), //폼 전체 데이터 전송
+			//3.json 방식으로 넘김
+			data:jsonStr,
+			//쿼리스트링이 아닌 json방식으로 전송시 명시할것
+			contentType:'application/json',
+			dataType:'json',
+			success:function(data, status, xhr){
+				console.log(status);
+				console.log(xhr);
+				console.log(data);
+			},
+			error:function(xhr,status){
+				console.log(xhr);
+				console.log(status);				
+			}
+		}); //ens ajax
+	}
+</script>
 </body>
 </html>

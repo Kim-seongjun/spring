@@ -8,7 +8,7 @@
  		]]>		 -->
 		<!-- 위는 검색할 게시글이 많을 때 성능이 떨어진다. -->
 		<![CDATA[   
-       SELECT * FROM ( SELECT /*+INDEX_DESC(B PK_B_NUM) */ ROWNUM AS RN,B.* FROM B WHERE ROWNUM<=#{pNum}*10)
+       SELECT * FROM ( SELECT /*+INDEX_ASC(B PK_B_NUM) */ ROWNUM AS RN,B.* FROM B WHERE ROWNUM<=#{pNum}*10)
        WHERE RN >=#{pNum}*10-9
        ]]>
 	</select>
