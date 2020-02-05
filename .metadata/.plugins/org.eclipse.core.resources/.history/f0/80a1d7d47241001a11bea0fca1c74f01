@@ -1,7 +1,0 @@
-package com.icia.www;
-
-public interface Test {
-	public void showName();
-	public String getName();
-}
-
