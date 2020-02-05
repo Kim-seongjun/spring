@@ -1,4 +1,9 @@
 package com.board.icia;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -22,18 +27,34 @@ public class BoardRestController {
 	private BoardManagement bm;
 	
 	ModelAndView mav;
-	@RequestMapping(value="/replyinsert")
-	public @ResponseBody String replyInsert(@RequestBody Reply r) {
-		System.out.println("r_bnum="+r.getR_bnum());
-		System.out.println("r_con="+r.getR_contents());
+	
+	//Gson 활용
+//	@RequestMapping(value="/replyinsert",produces = "application/json;charset=utf8")
+	
+//	public @ResponseBody String replyInsert(Reply r,HttpServletRequest req) {
+//		System.out.println("r_bnum="+r.getR_bnum());
+//		System.out.println("r_con="+r.getR_contents());
+//		r.setR_id(req.getSession().getAttribute("id").toString());
+//		String json = bm.replyInsert(r);
+//		//String json = new Gson().toJson(r);
+//		return json;
+//		
+//		//서블릿에서 사용 하던 방식을 @ResponseBody가 대신함
+//		//PrinWriter out=res.getWriter();
+//		//out.print(json);
+//		
+//		
+//	}
+
+	
+	//jackson 활용
+	@RequestMapping(value="/replyinsert",produces = "application/json;charset=utf8")
+	
+	public @ResponseBody Map<String,List<Reply>> replyInsert(Reply r,HttpServletRequest req) {
+		r.setR_id(req.getSession().getAttribute("id").toString());
+		Map<String,List<Reply>> rMap =bm.replyInsertJackSon(r);
 		
-		String json = new Gson().toJson(r);
-		return json;
-		
-		//서블릿에서 사용 하던 방식을 @ResponseBody가 대신함
-		//PrinWriter out=res.getWriter();
-		//out.print(json);
-		
+		return rMap;
 		
 	}
 }

@@ -40,7 +40,7 @@
 		</tr>
 	</table>
 </form>
-<table>
+<table id="rTable">
 <c:forEach var="r" items="${rList}">
 	<tr height="25" align="center">
 		<td width="100">${r.r_id}</td>
@@ -63,23 +63,32 @@
 			url:'rest/replyinsert',
 			//1.쿼리스트링 방식
 			//data:{r_bnum:bNum, r_contents:$('#r_contents').val()},
+			data:obj,
 			//2.jQuery 방식
 			//data:$('#rFrm').serialize(), //폼 전체 데이터 전송
 			//3.json 방식으로 넘김
-			data:jsonStr,
+			//data:jsonStr,
 			//쿼리스트링이 아닌 json방식으로 전송시 명시할것
-			contentType:'application/json',
+			//contentType:'application/json',
 			dataType:'json',
 			success:function(data, status, xhr){
 				console.log(status);
 				console.log(xhr);
 				console.log(data);
+				var str="";
+	             $.each(data.rList, function(index,item){
+	                str+= "<tr height='25' align='center'><td width='100'>"+item.r_id
+	                +"</td ><td width='200'>"+item.r_contents
+	                +"</td><td width='200'>"+item.r_date+"</td></tr>"
+	             });
+	             $("#rTable").html(str);
+				
 			},
 			error:function(xhr,status){
 				console.log(xhr);
 				console.log(status);				
 			}
-		}); //ens ajax
+		}); //end ajax
 	}
 </script>
 </body>
