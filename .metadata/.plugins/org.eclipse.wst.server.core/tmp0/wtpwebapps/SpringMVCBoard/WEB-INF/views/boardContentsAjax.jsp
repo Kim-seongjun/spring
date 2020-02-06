@@ -9,7 +9,7 @@
 </head>
 <body>
 <h3>Board * Reply Contents</h3>
-<a href="boardDelete?bNum=${board.b_num }">삭제</a>
+<a href="boarddelete?bNum=${board.b_num }">삭제</a>
 <table>
 	<tr height="30">
 		<td width="100" bgcolor="pink" align="center">NUM</td>

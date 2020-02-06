@@ -22,7 +22,8 @@ public class HomeController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
-	private ModelAndView mav;
+	ModelAndView mav = new ModelAndView();
+	
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
@@ -48,13 +49,16 @@ public class HomeController {
 		return mav;
 	}
 	@RequestMapping(value = "/logout", method = RequestMethod.POST)
-	public String logout(HttpServletRequest req) {
+	public ModelAndView logout(HttpServletRequest req) {
 		req.getSession().invalidate(); //세션초기화
-		return "home";
+		mav = new ModelAndView();
+		mav.setViewName("redirect:home");
+		return mav;
 	}
 	@RequestMapping(value = "/memberjoin", method = RequestMethod.POST)
 	public ModelAndView memberjoin(Member mb) {
 		mav=mm.memberjoin(mb);
 		return mav;
 	} 
+	
 }//Con End

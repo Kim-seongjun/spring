@@ -62,6 +62,7 @@ html, body {
 </style>
 </head>
 <body>
+<%-- ${bNum} --%>
 
 	<h3>게시판리스트</h3>
 	<c:if test="${!empty id }">
@@ -149,9 +150,6 @@ html, body {
 		$('#logoutFrm').submit();
 	}
 	
-	
-	
-	
 	function articleView(num) {
 		$('#articleView_layer').addClass('open'); //모달박스 나타내기
 		$.ajax({
@@ -183,7 +181,16 @@ html, body {
 		}
 	});
 	
-	
+	$(function() {
+		var result = '${bNum}';
+		console.log(result);
+		if(result===''){
+			return;
+		}
+	if(parseInt(result)>0){
+		alert('${bNum}'+'번 글을 삭제하였습니다.');
+	}
+	});
 </script>
 </body>
 </html>

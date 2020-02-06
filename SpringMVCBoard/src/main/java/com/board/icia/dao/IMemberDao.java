@@ -1,6 +1,5 @@
 package com.board.icia.dao;
 
-import java.util.List;
 import java.util.Map;
 
 import com.board.icia.dto.Member;
