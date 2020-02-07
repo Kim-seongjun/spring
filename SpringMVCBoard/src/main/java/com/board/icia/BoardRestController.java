@@ -6,12 +6,15 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.board.icia.dto.Board;
 import com.board.icia.dto.Reply;
 import com.board.icia.service.BoardManagement;
 import com.google.gson.Gson;
@@ -55,6 +58,15 @@ public class BoardRestController {
 		Map<String,List<Reply>> rMap =bm.replyInsertJackSon(r);
 		
 		return rMap;
+		
+	}
+
+	@PostMapping(value="/boardwrite",produces = "application/json;charset=utf8")
+	public String boardWrite(Board board, List<MultipartFile> files) {
+		//파일태그명과 일치
+		String json = null;
+		
+		return json;
 		
 	}
 }

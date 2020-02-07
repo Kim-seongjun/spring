@@ -124,18 +124,17 @@ public class BoardManagement {
 		return mav;
 	}
 		
-	public ModelAndView getMemberlist(Integer mNum) {
+	public ModelAndView getMemberlist() {
 		mav = new ModelAndView();
 		String view = null;
 		List<Board> mList = null;
 		//int memNum = (mNum == null) ? 1 : mNum;
 		//System.out.println("memNum=" + memNum);
 		// if(req.getSession().getAttribute("id")!=null) {
-		mList = bDao.getMemberList(mNum);
+		mList = bDao.getMemberList();
 		System.out.println("여기오니2");
 		if (mList != null) {
 			mav.addObject("mList", mList);
-			mav.addObject("paging",getPaging(mNum));
 			view = "boardList";
 		} else {
 			view = "home";

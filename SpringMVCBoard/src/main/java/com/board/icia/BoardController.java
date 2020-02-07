@@ -19,25 +19,30 @@ public class BoardController {
 	@RequestMapping(value = "/boardlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
 	public ModelAndView boardList(Integer pageNum) { //null
 		mav = bm.getBoardList(pageNum);
+		//mav = bm.getMemberlist();
 		return mav;
 	}
-	@RequestMapping(value = "/contents", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
+	@RequestMapping(value = "/contents")//method = RequestMethod.GET생략시 GET,POST 모두가능
 	public ModelAndView contents(Integer bNum) { //null
 		mav = bm.getContents(bNum);
 		return mav;
 	}
-	@RequestMapping(value = "/boarddelete", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
+	@RequestMapping(value = "/boarddelete")//method = RequestMethod.GET생략시 GET,POST 모두가능
 	public ModelAndView boarddelete(Integer bNum,RedirectAttributes attr) { //null
 		mav = bm.boardDelete(bNum,attr);
 		//attr.addFlashAttribute("bNum",bNum);
 		return mav;
 	}
-	@RequestMapping(value = "/memberlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
-	public ModelAndView memberlist(Integer mNum) { //null
-		System.out.println("여긴오니1");
-		mav = bm.getMemberlist(mNum);
-		//attr.addFlashAttribute("bNum",bNum);
-		System.out.println("여기오니3");
-		return mav;
+	@RequestMapping(value = "/writefrm")//method = RequestMethod.GET생략시 GET,POST 모두가능
+	public String writefrm() { //null
+		return "writefrm";
 	}
+//	@RequestMapping(value = "/memberlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
+//	public ModelAndView memberlist(Integer mNum) { //null
+//		System.out.println("여긴오니1");
+//		mav = bm.getMemberlist(mNum);
+//		//attr.addFlashAttribute("bNum",bNum);
+//		System.out.println("여기오니3");
+//		return mav;
+//	}
 }

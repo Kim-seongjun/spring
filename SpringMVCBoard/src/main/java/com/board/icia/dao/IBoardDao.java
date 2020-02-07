@@ -27,6 +27,6 @@ public interface IBoardDao {
 	boolean aticleDelete(Integer bNum);
 	
 	@Select("SELECT * FROM MEMBER")
-	List<Board> getMemberList(Integer bNum);
+	List<Board> getMemberList();
 
 }

@@ -38,7 +38,6 @@
 <fullyQualifiedTypeName name="com.board.icia.dto.Reply"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -47,9 +46,13 @@
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Delete"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 <fullyQualifiedTypeName name="com.board.icia.userClass.DbException"/>
 <fullyQualifiedTypeName name="com.board.icia.dto.Member"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="com.board.icia.dto.Board"/>
+<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
 </qualifiedTypeNameHistroy>

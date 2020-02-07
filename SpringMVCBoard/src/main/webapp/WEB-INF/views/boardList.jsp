@@ -139,13 +139,19 @@ html, body {
 			</tr>
 		</c:forEach>
 	</table>
+	
+	<!-- 글쓰기 -->
+	<form action="writefrm">
+		<button>글쓰기</button>
+	</form>
+	
 <!-- 페이징 -->
 <div align="center">${paging}</div>
 
 
 
 	<script>
-	
+	console.log('${mList}');
 	function logout() {
 		$('#logoutFrm').submit();
 	}
