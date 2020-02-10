@@ -39,7 +39,7 @@
             <td>파일첨부</td>
             <td>
                <input type="file" name="files" multiple id="files" />
-               <input type="hidden" id="fileCheck" name="file_Check" value="0" />
+               <input type="hidden" id="fileCheck" name="fileCheck" value="0" />
             </td>
          </tr>
          <tr>
@@ -91,7 +91,7 @@ $("#files").on("change", function(){
       console.dir($obj[0].files[1]);//2번째 파일 정보
       
       //FormData 사용 목적
-      //1.multipart/form-data 를 전송시 무조건 사용(파일 업로드)
+      //1.multipart/form-data 를  Ajax전송시 무조건 FormData사용(파일 업로드)
       //2.ajax를 이용한 RestFul에서 사용함
       //3.FormData객체는 form의 일부데이터만 서버에 전송할때도 좋습니다.
       
@@ -122,6 +122,7 @@ $("#files").on("change", function(){
             dataType:'json',
             success:function(data){
                alert('성공');
+               location.href="./boardlist";  //restful 포워딩
                console.log(data);
             },
             error:function(err){

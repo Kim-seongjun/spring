@@ -1,8 +1,10 @@
 package com.board.icia.dao;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
 import com.board.icia.dto.Board;
@@ -28,5 +30,14 @@ public interface IBoardDao {
 	
 	@Select("SELECT * FROM MEMBER")
 	List<Board> getMemberList();
+	
+	//@Insert("INSERT INTO B VALUES(BOARD_SEQ.NEXTVAL,'#{b_title}','#{b_contents}','#{b_id}',default,default)")
+	boolean boardWrite(Board board);
+
+	
+	boolean fileInsert(Map<String, String> fMap);
+
+	@Select("SELECT BOARD_SEQ.CURRVAL FROM DUAL")
+	int getCurBoardNum();
 
 }

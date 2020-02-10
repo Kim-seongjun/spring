@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.board.icia.dto.Board;
@@ -61,12 +62,26 @@ public class BoardRestController {
 		
 	}
 
-	@PostMapping(value="/boardwrite",produces = "application/json;charset=utf8")
-	public String boardWrite(Board board, List<MultipartFile> files) {
+//	@PostMapping(value="/boardwrite")
+//	public String boardWrite(Board board, List<MultipartFile> files) {
+//		//파일태그명과 일치
+//		System.out.println("title="+board.getB_title());
+//		System.out.println("file="+files.get(0).getOriginalFilename());
+//		System.out.println("file="+files.get(1).getOriginalFilename());
+//		
+//		return new Gson().toJson(files);
+//		
+//	}
+	@PostMapping(value="/boardwrite")
+	public String boardWrite(MultipartHttpServletRequest multi) {
 		//파일태그명과 일치
-		String json = null;
+		System.out.println("title="+multi.getParameter("b_title"));
+		System.out.println("fileCheck="+multi.getParameter("fileCheck"));
+		List<MultipartFile> files = multi.getFiles("files");
+		System.out.println("file="+files.get(0).getOriginalFilename());
+		System.out.println("file="+files.get(1).getOriginalFilename());
 		
-		return json;
+		return new Gson().toJson(files);
 		
 	}
 }

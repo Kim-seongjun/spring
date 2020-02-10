@@ -36,6 +36,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	
 	<!-- Session Interceptor(가로채기) -->
 	<interceptors>
 		<interceptor>
