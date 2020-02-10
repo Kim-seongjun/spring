@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
 import com.board.icia.dto.Board;
+import com.board.icia.dto.Member;
 import com.board.icia.dto.Reply;
 
 
@@ -29,7 +30,7 @@ public interface IBoardDao {
 	boolean aticleDelete(Integer bNum);
 	
 	@Select("SELECT * FROM MEMBER")
-	List<Board> getMemberList();
+	List<Member> getMemberList();
 	
 	//@Insert("INSERT INTO B VALUES(BOARD_SEQ.NEXTVAL,'#{b_title}','#{b_contents}','#{b_id}',default,default)")
 	boolean boardWrite(Board board);

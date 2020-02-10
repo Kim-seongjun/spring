@@ -43,8 +43,9 @@ public class BoardController {
 	public String writefrm() { //null
 		return "writefrm";
 	}
-	@RequestMapping(value = "/memberlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
+	@RequestMapping(value = "/memberlist")//method = RequestMethod.GET생략시 GET,POST 모두가능
 	public ModelAndView memberlist() { //null
+		System.out.println("보드컨트룰러 맴버리스트");
 		mav = bm.getMemberlist();
 		//attr.addFlashAttribute("bNum",bNum);
 		return mav;

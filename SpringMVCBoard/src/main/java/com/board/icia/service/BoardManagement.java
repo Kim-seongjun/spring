@@ -44,7 +44,7 @@ public class BoardManagement {
 		if (bList != null) {
 			mav.addObject("bList", bList);
 			mav.addObject("paging", getPaging(pNum));
-			view = "boardList";
+			view = "boardList"; //jsp
 		} else {
 			view = "home";
 		}
@@ -131,18 +131,20 @@ public class BoardManagement {
 	public ModelAndView getMemberlist() {
 		mav = new ModelAndView();
 		String view = null;
-		List<Board> mList = null;
+		List<Member> mList = null;
 		// int memNum = (mNum == null) ? 1 : mNum;
 		// System.out.println("memNum=" + memNum);
 		// if(req.getSession().getAttribute("id")!=null) {
 		mList = bDao.getMemberList();
-		System.out.println("여기오니2");
+		System.out.println("보드서비스 맴버리스트");
+		System.out.println("mList="+mList.get(0).getM_id());
 		if (mList != null) {
 			mav.addObject("mList", mList);
 			view = "boardList";
-		} else {
-			view = "home";
-		}
+		} 
+//		else {
+//			view = "home";
+//		}
 		mav.setViewName(view); // jsp
 		return mav;
 	}

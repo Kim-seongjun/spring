@@ -123,14 +123,14 @@ html, body {
 
 	<table>
 		<!-- 회원리스트 -->
-		<tr bgcolor="sktblue" height="30">
-			<th width="100">회원아이디</th>
-			<th width="100">회원이름</th>
-			<th width="100">회원등급</th>
-			<th width="100">회원포인트</th>
-		</tr>
+<!-- 		<tr bgcolor="sktblue" height="30"> -->
+<!-- 			<th width="100">회원아이디</th> -->
+<!-- 			<th width="100">회원이름</th> -->
+<!-- 			<th width="100">회원등급</th> -->
+<!-- 			<th width="100">회원포인트</th> -->
+<!-- 		</tr> -->
 
-		<c:forEach var="memberlist" items="${mList}">
+		<c:forEach var="member" items="${mList}">
 			<tr height="25">
 				<td align="center">${member.m_id}</td>
 				<td align="center">${member.m_name}</td>
@@ -139,6 +139,11 @@ html, body {
 			</tr>
 		</c:forEach>
 	</table>
+	
+	<!-- 맴버리스트 -->
+	
+	<button onclick="memberlist()">맴버리스트</button>
+	<div id="memberlist"></div>
 	
 	<!-- 글쓰기 -->
 	<form action="writefrm">
@@ -151,6 +156,23 @@ html, body {
 
 
 	<script>
+	function memberlist() {
+		var str='';
+		console.log(${mList});
+		str+="<table>";
+		str+="<tr bgcolor='sktblue' height='30'>";
+		str+="<th width='100'>회원아이디</th>";
+		str+="<th width='100'>회원이름</th>";
+		str+="<th width='100'>회원등급</th>";
+		str+="<th width='100'>회원포인트</th>";
+		str+="</tr>";
+		str+="</table>";
+		
+		$('#memberlist').html(str);
+	}
+
+	
+	
 	console.log('${mList}');
 	function logout() {
 		$('#logoutFrm').submit();

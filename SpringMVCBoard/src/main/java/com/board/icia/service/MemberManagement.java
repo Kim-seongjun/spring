@@ -58,7 +58,9 @@ public class MemberManagement {
 				session.setAttribute("id", mb.getM_id());
 				// 로그인 후 회원정보를 화면 출력하기 위해
 				mb = mDao.getMemberInfo(mb.getM_id());
+				
 				session.setAttribute("mb", mb);
+				
 				//mav.addObject("mb", mb); //request영역에 모델객체 저장
 				//view = "boardList"; // jsp
 				// view = "forward:/boardList"; //forward:url
