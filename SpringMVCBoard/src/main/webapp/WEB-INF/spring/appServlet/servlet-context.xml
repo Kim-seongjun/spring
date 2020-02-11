@@ -35,7 +35,7 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
-	
+	<!-- @Controller 패키지는 반드시 servlet-context.xml 위치해야됨. -->
 	
 	<!-- Session Interceptor(가로채기) -->
 	<interceptors>

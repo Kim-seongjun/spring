@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.board.icia.dao.IBoardDao;
+import com.board.icia.dto.Bfile;
 import com.board.icia.dto.Board;
 import com.board.icia.dto.Member;
 import com.board.icia.dto.Reply;
@@ -67,6 +68,10 @@ public class BoardManagement {
 		// if(req.getSession().getAttribute("id")!=null) {
 		Board board = bDao.getContents(bNum);
 		mav.addObject("board", board);
+		List<Bfile> bfList=bDao.getBfList(bNum);
+		System.out.println("filesize="+bfList.size());
+		
+		mav.addObject("bfList",bfList);
 
 		List<Reply> rList = bDao.getReplyList(bNum);
 		mav.addObject("rList", rList);

@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
+import com.board.icia.dto.Bfile;
 import com.board.icia.dto.Board;
 import com.board.icia.dto.Member;
 import com.board.icia.dto.Reply;
@@ -40,5 +41,8 @@ public interface IBoardDao {
 
 	@Select("SELECT BOARD_SEQ.CURRVAL FROM DUAL")
 	int getCurBoardNum();
+	
+	//@Select("SELECT * FROM BF WHERE BF_BNUM = #{bNum}")
+	List<Bfile> getBfList(Integer bNum);
 
 }
