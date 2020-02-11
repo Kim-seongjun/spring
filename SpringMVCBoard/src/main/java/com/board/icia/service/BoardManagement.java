@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.swing.text.StyledEditorKit.BoldAction;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ import com.board.icia.dto.Board;
 import com.board.icia.dto.Member;
 import com.board.icia.dto.Reply;
 import com.board.icia.userClass.DbException;
+import com.board.icia.userClass.FileManager;
 import com.board.icia.userClass.Paging;
 import com.board.icia.userClass.UploadFile;
 import com.google.gson.Gson;
@@ -30,7 +32,7 @@ public class BoardManagement {
 	@Autowired
 	private IBoardDao bDao;
 	@Autowired
-	private UploadFile upload;
+	private FileManager fm;
 	ModelAndView mav;
 
 	public ModelAndView getBoardList(Integer pageNum) {
@@ -112,26 +114,37 @@ public class BoardManagement {
 	// addFlashAttribute :post방식(session에 저장후 1번 사용하면 삭제함)
 	// attr.addAttribute : get방식 (session에 저장후 request객체에 저장 후 삭제함)
 	@Transactional
-	public ModelAndView boardDelete(Integer bNum, RedirectAttributes attr) { // 삭제 트랜젝션 (댓글,내용 삭제)
+	public ModelAndView boardDelete(Integer bNum, RedirectAttributes attr) throws DbException {
 		System.out.println("bNum=" + bNum);
 		mav = new ModelAndView();
 		boolean r = bDao.replyDelete(bNum);
+		System.out.println("r=" + r);
+		List<Bfile> bfList=bDao.getBfList(bNum);
+		boolean f= bDao.fileDelete(bNum);
+		System.out.println("service list="+bfList);
+		fm.delete(bfList);
+		System.out.println("f=" + f);
+		
 		boolean a = bDao.aticleDelete(bNum);
-
+		// boolean a=bDao.aticleDelete(1000); //번호가 없어서 실패
+		System.out.println("a=" + a);
+		
 		if (a == false) { // 0개 원글을 삭제한 경우 예외발생시켜서 롤백
 			throw new DbException();
 		}
-		if (r && a) {
-			System.out.println("삭제 트랜젝션 성공");
+		if (r && a && f) {
+			System.out.println("댓글 ,파일, 원글 존재시 삭제 트랜잭션 성공");
 			attr.addFlashAttribute("bNum", bNum); // post방식
-			// attr.addAttribute("bNum",bNum); //get방식
+			// attr.addAttribute("bNum", bNum); //get방식으로 request객체에 넘겨준다.
 		} else {
 			System.out.println("삭제 트랜잭션 실패");
 		}
+		// mav.addObject("bNum", bNum); //get방식으로 request객체에 넘겨준다.
+		mav.setViewName("redirect:boardlist");
 
-		mav.setViewName("redirect:boardlist"); // 새로운 요청으로 boardlist로 이동
 		return mav;
 	}
+
 
 	public ModelAndView getMemberlist() {
 		mav = new ModelAndView();
@@ -180,7 +193,7 @@ public class BoardManagement {
 		boolean f = false;
 		if (check == 1) { // 첨부파일 여부
 			int bnum = bDao.getCurBoardNum(); // 현재 글 번호
-			f = upload.fileUp(multi, board.getB_num());
+			f = fm.fileUp(multi, board.getB_num());
 
 			if (f) {
 				view = "redirect:/boardlist"; // url
@@ -192,6 +205,23 @@ public class BoardManagement {
 
 		}
 		return mav;
+	}
+	public void download(Map<String, Object> params) throws Exception {
+		// 다운로드 경로 확정
+		String oriFileName = (String) params.get("oriFileName");
+		String sysFileName = (String) params.get("sysFileName");
+		String root = (String) params.get("root");
+		String fullPath = root + "/upload/" + sysFileName;
+		// 다운로드할 파일 -> 원래 파일명 추출(위 Map에 받아왔으므로 생략가능)
+		//String oriFileName = bDao.getOriFileName(sysFileName);
+
+		//System.out.println("fullPath : " + fullPath);
+		//System.out.println("oriFileName : " + oriFileName);
+		//System.out.println("sysFileName : " + sysFileName);
+
+		HttpServletResponse resp = (HttpServletResponse) params.get("response");
+		// 실제 파일다운로드
+		fm.download(fullPath, oriFileName, resp);
 	}
 
 }

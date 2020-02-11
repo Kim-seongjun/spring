@@ -45,4 +45,8 @@ public interface IBoardDao {
 	//@Select("SELECT * FROM BF WHERE BF_BNUM = #{bNum}")
 	List<Bfile> getBfList(Integer bNum);
 
+	@Delete("delete from bf where bf_bnum=#{bNum}")
+	boolean fileDelete(Integer bNum);
+	
+
 }

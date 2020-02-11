@@ -2,6 +2,8 @@ package com.board.icia;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.board.icia.service.BoardManagement;
+import com.board.icia.userClass.FileManager;
 
 @Controller
 public class BoardController {
@@ -75,4 +78,17 @@ public class BoardController {
 		
 		return mav;
 	}
+	@RequestMapping(value="/download")
+    public void download(String sysFileName,HttpServletResponse resp) {
+       String full="E:/springwork/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SpringMVCBoard/upload/"+sysFileName;
+       
+       FileManager d=new FileManager();
+       try {
+          d.download(full, sysFileName, resp);
+       } catch (Exception e) {
+          // TODO Auto-generated catch block
+          e.printStackTrace();
+       }
+    
+    }
 }

@@ -35,7 +35,7 @@
       <th>첨부파일</th>
       <td><c:set var='file' value="${bfList }"/>
       <c:if test="${empty file }">
-      첨부된 파일이 없습니다.
+		첨부된 파일이 없습니다.
       </c:if>
       
       <c:if test="${!empty file }">
