@@ -21,6 +21,7 @@ import com.board.icia.dto.Bfile;
 import com.board.icia.dto.Board;
 import com.board.icia.dto.Member;
 import com.board.icia.dto.Reply;
+import com.board.icia.exception.PageException;
 import com.board.icia.userClass.DbException;
 import com.board.icia.userClass.FileManager;
 import com.board.icia.userClass.Paging;
@@ -40,6 +41,9 @@ public class BoardManagement {
 		String view = null;
 		List<Board> bList = null;
 		int pNum = (pageNum == null) ? 1 : pageNum;
+		
+		if(pNum <=0)
+			throw new PageException("페이지번호가 잘못되었습니다.");
 		System.out.println("pNum=" + pNum);
 		// if(req.getSession().getAttribute("id")!=null) {
 		bList = bDao.getBoardList(pNum);

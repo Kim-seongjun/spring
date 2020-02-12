@@ -18,13 +18,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.board.icia.dao.IMemberDao;
 import com.board.icia.dto.Member;
+import com.board.icia.exception.IdCheckException;
 
 //@Component
 @Service
 public class MemberManagement {
 	@Autowired
 	private IMemberDao mDao;
-
 
 	private ModelAndView mav;
 
@@ -33,11 +33,11 @@ public class MemberManagement {
 		hMap.put("id", id);
 		hMap.put("pw", pwd);
 		boolean result = mDao.hashMapTest(hMap);
-		System.out.println("result="+result); //로그인 성공(true), 실패:false
-		hMap=mDao.hashMapTest2(id);
-		System.out.println("name="+hMap.get(id));
+		System.out.println("result=" + result); // 로그인 성공(true), 실패:false
+		hMap = mDao.hashMapTest2(id);
+		System.out.println("name=" + hMap.get(id));
 	}
-	
+
 	public ModelAndView memberAccess(Member mb, HttpServletRequest req) {
 		mav = new ModelAndView();
 		String view = null;
@@ -45,12 +45,10 @@ public class MemberManagement {
 		BCryptPasswordEncoder pwdEncoder = new BCryptPasswordEncoder();
 		String pwdEncode = mDao.getSecurityPwd(mb.getM_id());
 		System.out.println("pw=" + pwdEncode);
-		
-			
-		//hashMap 로그인 테스트
+
+		// hashMap 로그인 테스트
 		HashMapTest(mb.getM_id(), pwdEncode);
-		
-	
+
 		if (pwdEncode != null) {
 			if (pwdEncoder.matches(mb.getM_pwd(), pwdEncode)) { // 비교
 				// 로그인 성공
@@ -58,16 +56,16 @@ public class MemberManagement {
 				session.setAttribute("id", mb.getM_id());
 				// 로그인 후 회원정보를 화면 출력하기 위해
 				mb = mDao.getMemberInfo(mb.getM_id());
-				
+
 				session.setAttribute("mb", mb);
-				
-				//mav.addObject("mb", mb); //request영역에 모델객체 저장
-				//view = "boardList"; // jsp
+
+				// mav.addObject("mb", mb); //request영역에 모델객체 저장
+				// view = "boardList"; // jsp
 				// view = "forward:/boardList"; //forward:url
-				view = "redirect:/boardlist"; //redirect:url, POST,GET -->
+				view = "redirect:/boardlist"; // redirect:url, POST,GET -->
 			} else { // 비번오류
 				view = "home";
-				
+
 				mav.addObject("check", 2); // 로그인 실패
 			}
 		} else { // 아이디가 오류시
@@ -77,7 +75,6 @@ public class MemberManagement {
 		mav.setViewName(view);
 		return mav;
 	}
-
 
 	public ModelAndView memberjoin(Member mb) {
 		mav = new ModelAndView();
@@ -97,4 +94,18 @@ public class MemberManagement {
 		return mav;
 	}
 
+//	public boolean idAvailable(String m_id) {
+//		Member mb = mDao.getMemberInfo(m_id);
+//		if (mb == null)
+//			return true; //아이디를 사용할수 있다.
+//		else
+//			return false; //아이디를 사용할수 없다.
+//	}
+	public String idAvailable(String m_id) {
+		Member mb = mDao.getMemberInfo(m_id);
+		if (mb != null)
+			throw new IdCheckException("사용불가 아이디입니다.");
+		
+		return "사용가능한 아이디입니다.";
+	}
 }// Class End

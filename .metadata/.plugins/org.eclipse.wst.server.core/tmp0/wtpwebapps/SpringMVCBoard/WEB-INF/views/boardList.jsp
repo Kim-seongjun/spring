@@ -62,7 +62,7 @@ html, body {
 </style>
 </head>
 <body>
-<%-- ${bNum} --%>
+${msg}
 
 	<h3>게시판리스트</h3>
 	<c:if test="${!empty id }">
