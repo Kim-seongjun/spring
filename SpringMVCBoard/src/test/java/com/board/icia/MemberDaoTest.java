@@ -35,12 +35,12 @@ public class MemberDaoTest {
 		log.info("dao="+dao);
 		assertThat(dao,is(notNullValue())); 
 		//log.info("dao={}",dao);  //{} 는 C언어의 %d 와 같은 역할
-		Member mb=new Member().setM_id("CHA").setM_pwd("1111");
+		Member mb=new Member().setM_id("KIM").setM_pwd("1111");
 		assertThat(dao.getLoginResult(mb),is(true));
 		//assertThat(dao, is(nullValue()));
-		mb=dao.getMemberInfo("CHA");
+		mb=dao.getMemberInfo("KIM");
 		assertThat(mb.getM_pwd(), is(nullValue()));
-		assertThat(mb.getM_name(), is("차지헌"));
+		assertThat(mb.getM_name(), is("김성준"));
 		
 	}
 	@Test
@@ -48,12 +48,12 @@ public class MemberDaoTest {
 		log.info("dao="+dao);
 		assertThat(dao,is(notNullValue())); 
 		//log.info("dao={}",dao);  //{} 는 C언어의 %d 와 같은 역할
-		Member mb=new Member().setM_id("CHA").setM_pwd("1111");
+		Member mb=new Member().setM_id("KIM").setM_pwd("1111");
 		assertThat(dao.getLoginResult(mb),is(true));
 		//assertThat(dao, is(nullValue()));
 		mb=dao.getMemberInfo("CHA");
 		assertThat(mb.getM_pwd(), is(nullValue()));
-		assertThat(mb.getM_name(), is("차지헌"));
+		assertThat(mb.getM_name(), is("김성준"));
 		
 	}
 	/*
