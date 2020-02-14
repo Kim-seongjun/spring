@@ -228,4 +228,16 @@ public class BoardManagement {
 		fm.download(fullPath, oriFileName, resp);
 	}
 
+	public ModelAndView myBatisTest(String cName, Integer search) {
+		mav = new ModelAndView();
+		List<Member> list = bDao.myBatisTest(cName,search);
+		mav.addObject("list", list);
+		mav.setViewName("test");
+//		Map<String, Object> hMap = new HashMap<String, Object>();
+//		hMap.put("cName", cName);
+//		hMap.put("search", search);
+		
+		return mav;
+	}
+
 }

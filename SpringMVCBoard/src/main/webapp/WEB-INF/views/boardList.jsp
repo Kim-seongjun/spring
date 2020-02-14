@@ -140,6 +140,15 @@ ${msg}
 		</c:forEach>
 	</table>
 	
+	<form action="test">
+		컬럼명:<input type="text" name="cName"><br>
+		검색:<input type="text" name="search"/>
+		<button>컬럼 검색</button>
+	</form>
+	
+	
+	
+	
 	<!-- 맴버리스트 -->
 	
 	<button onclick="memberlist()">맴버리스트</button>

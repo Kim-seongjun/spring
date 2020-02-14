@@ -91,4 +91,9 @@ public class BoardController {
        }
     
     }
+	@GetMapping(value = "/test")
+	public ModelAndView myBatisTest(String cName, Integer search) {
+		mav = bm.myBatisTest(cName,search);
+		return mav;
+	}
 }
