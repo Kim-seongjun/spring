@@ -4,6 +4,7 @@ package com.board.icia.service;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.request;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -57,7 +58,7 @@ public class MemberManagement {
 				// 로그인 후 회원정보를 화면 출력하기 위해
 				mb = mDao.getMemberInfo(mb.getM_id());
 
-				session.setAttribute("mb", mb);
+				session.setAttribute("mb", mb); //세션에 회원정보 저장
 
 				// mav.addObject("mb", mb); //request영역에 모델객체 저장
 				// view = "boardList"; // jsp
@@ -108,4 +109,6 @@ public class MemberManagement {
 		
 		return "사용가능한 아이디입니다.";
 	}
+
+	
 }// Class End

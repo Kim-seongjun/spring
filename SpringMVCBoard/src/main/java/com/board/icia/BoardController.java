@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.board.icia.service.BoardManagement;
+import com.board.icia.service.MemberManagement;
 import com.board.icia.userClass.FileManager;
 
 @Controller
@@ -28,7 +29,7 @@ public class BoardController {
 	@RequestMapping(value = "/boardlist", method = RequestMethod.GET)//method = RequestMethod.GET생략시 GET,POST 모두가능
 	public ModelAndView boardList(Integer pageNum) { //null
 		mav = bm.getBoardList(pageNum);
-		//mav = bm.getMemberlist();
+		//mav = mm.getMemberlist();
 		return mav;
 	}
 	@RequestMapping(value = "/contents")//method = RequestMethod.GET생략시 GET,POST 모두가능
