@@ -6,3 +6,12 @@ $(function() {
 	$('#aside').load("/kim_client/include/aside.html");
 	$('#footer').load("/kim_client/include/footer.html");
 });
+//1.입력 체크 실패 메시지 출력
+function printErrorMessage(element, message) {
+	element.text(message).css({"color":"red","font-size":"0.75em"});
+	return false;
+}
+//2.입력 체크 성공 메시지 출력
+function printMessage(element, message) {
+	element.text(message).css({"color":"green","font-size":"0.75em"})
+}

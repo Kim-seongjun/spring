@@ -17,7 +17,7 @@
 <!-- 부트스트랩 -->
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
+<script src="/kim_client/script/jquery.ajax-cross-origin.min.js"></script>
 <script src="/kim_client/script/main.js"></script>
 <script>
 	//프사 출력하기 : 1MB가 넘으면 오류
@@ -39,9 +39,98 @@
 		reader.readAsDataURL(file); //서버아닌 PC에서 파일을 읽어오기 때문에 빠름
 		return true;
 	}
+	
+	//1.아이디 사용여부 확인
+	function checkUsername() {
+		var username=$("#username").val();
+		//정규식:영숫자8-10자
+		var patt= /^[A-Za-z0-9]{8,10}$/;
+		if(username.length==0)
+			return printErrorMessage($("#helper_id"),"필수 입력입니다.");
+		else if(!patt.test(username))
+				return printErrorMessage($("#helper_id"),"아이디는 영숫자 8~10자 입니다.");
+		return true; //적합한 아이디 리턴
+	}
+	
+	function ajaxUsername(){
+		var username=$('#username').val();
+		$.ajax({
+			//crossOrigin:true,
+			//dataType:"jsonp",
+			url:"http://192.168.0.72:80/cha_board/api/users/user/username",
+			data:"username="+username,
+			method:"get"//,
+			//succes:function(result){
+			//콜백지옥을 해결하기 위해 ES6의 promise사용한다.
+			//jQuery Deferred객체를 사용한다.
+			//},error.....
+		})//.then
+		
+		//.done(function(){printMessage($('#helper_id'),"사용가능합니다.")}) //성공시
+		//.fail(function(){printErrorMessage($('#helper_id'),"사용중인 아이디입니다.")});  //실패시
+		
+		.done(()=>printMessage($('#helper_id'),"사용가능합니다."))
+		.fail(()=>printErrorMessage($('#helper_id'),"사용중인 아이디입니다."))
+	}
+	//2.이름을 정규식으로 확인
+	function checkIrum() {
+		var irum=$("#irum").val();
+		//이름은 한글 2~10자
+		var patt= /^[가-힣]{2,10}$/;
+		if(irum.length==0)
+			return printErrorMessage($("#helper_irum"),"필수 입력입니다.");
+		else if(!patt.test(irum))
+				return printErrorMessage($("#helper_irum"),"이름은 한글 2~10자 입니다.");
+		$("#helper_irum").text("사용가능합니다.").css({"color":"green"});
+		return true; //적합한 이름 리턴
+	}
+	//3.비밀번호 정규식 확인
+	function checkPassword() {
+		var password=$("#password").val();
+		//특수문자 하나이상 포함하는 8~10자(전방탐색 이용)
+		//특수문자는 비밀번호 중 어느 위치에 있어도 된다.
+		//오라클로 치면 like '*a'라고하면 a어느 위치에 있어도 된다.(즉 앞에 임의의 글자가 있어도 된다.)
+		//?=앞에서 부터 검색, .은 임의의 문자, *는 0이상
+		//?=.*[!@#$%^&*] ==> 앞에서 부터 임의의 문자 다음에 특수문자 !@#$%^&*이 온다.
+		//()는 독립된 하나의 조건 => (?=.*[!@#$%^&*)는 특수문자가 하나 있다라는 조건
+		var patt = /(?=.*[!@#$%^&*])^[A-Za-z0-9!@#$%^&*]{8,10}$/;
+		if(password.length==0)
+			return printErrorMessage($("#helper_password"),"필수 입력입니다.");
+		else if(!patt.test(password))
+				return printErrorMessage($("#helper_password"),"비밀번호는 특수문자포함 8~10자 입니다.");
+		$("#helper_password").text("사용가능합니다.").css({"color":"green"});
+		return true; //적합한 비밀번호 리턴
+	}
+	//4.비밀번호 재 확인
+	function checkPassword2() {
+		var password=$("#password").val();
+		var password2=$("#password2").val();
+		if(password2.length==0)
+			return printErrorMessage($("#helper_password2"),"필수 입력입니다.");
+		if(password!=password2){
+			$("#password2").val("");
+		return printErrorMessage($("#helper_password2"),"비밀번호가 일치하지 않습니다.");
+		}
+		$("#helper_password2").text("");
+		return true;
+	}
+	
 	$(function() {
 		//각 input요소의 이벤트 지정
 		$("#profile").on("change",loadImage);
+		$("#username").on("blur",function(){
+			if(checkUsername()==true)
+				ajaxUsername(); //서버에서 id 적합여부 검사
+		});
+		$("#irum").on("blur",checkIrum);
+		$("#password").on("blur",checkPassword);
+		$("#password2").on("blur",checkPassword2);
+		$("#tel").on("blur",checkTel);
+		$("#email").on("blur",function(){
+			if(checkEmail()==true)//정규식을 통과했다면..
+				ajaxEmail(); //서버와 비동기 동기
+		});
+		$("#birthYear,#birthMonth,#birthDay").on("blur",checkBirthDate);
 	})
 </script>
 </head>
@@ -61,50 +150,50 @@
 							accept=".jpg,.jpeg,.png,.gif,.bmp">
 						<!-- accept 확장자 제한 -->
 					</div>
-					<div>
+					
+						<div class="form-group">
 						<label for="username">아이디</label> <span class="help-block"
 							id="helper_id">아이디는 영숫자 8~10자 입니다.</span>
-						<div class="form-group">
 							<input type="text" class="form-control" id="username"
 								name="username">
 						</div>
-					</div>
-					<div>
+					
+					
+						<div class="form-group">
 						<label for="irum">이름</label> <span class="help-block"
 							id="helper_irum">이름은 한글만 입력</span>
-						<div class="form-group">
 							<input type="text" class="form-control" id="irum" name="irum">
 						</div>
-					</div>
-					<div>
+					
+					
+						<div class="form-group">
 						<label for="password">비밀번호</label> <span class="help-block"
 							id="helper_password">비밀번호 입력</span>
-						<div class="form-group">
 							<input type="text" class="form-control" id="password"
 								name="password">
 						</div>
-					</div>
-					<div>
+					
+					
+						<div class="form-group">
 						<label for="password2">비밀번호 확인</label> <span class="help-block"
 							id="helper_password2">비밀번호 확인</span>
-						<div class="form-group">
 							<input id="password2" type="text" class="form-control">
 						</div>
-					</div>
-					<div>
+					
+					
+						<div class="form-group">
 						<label for="tel">전화번호</label> <span class="help-block"
 							id="helper_tel">전화번호 입력</span>
-						<div class="form-group">
 							<input id="tel" type="text" class="form-control">
 						</div>
-					</div>
-					<div>
+					
+					
+						<div class="form-group">
 						<label for="email">이메일</label> <span class="help-block"
 							id="helper_email">이메일입력</span>
-						<div class="form-group">
 							<input id="email" name="email" type="text" class="form-control">
 						</div>
-					</div>
+					
 					<div>
 						<label for="birthDate">생년월일</label> <span class="help-block"
 							id="helper_birthDate">생년월일 입력</span>
