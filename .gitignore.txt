@@ -1,1 +1,2 @@
 #E:\springwork\testSpring
+#E:\springwork\.metadata
