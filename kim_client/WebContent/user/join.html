@@ -17,8 +17,8 @@
 <!-- 부트스트랩 -->
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="/kim_client/script/jquery.ajax-cross-origin.min.js"></script>
-<script src="/kim_client/script/main.js"></script>
+
+<script src="/kim_client/script/main.js?ver1"></script> <!-- ?ver1 -->
 <script>
 	//프사 출력하기 : 1MB가 넘으면 오류
 	function loadImage() {
@@ -114,6 +114,91 @@
 		$("#helper_password2").text("");
 		return true;
 	}
+	//5.전화번호 확인
+	let tel; //전역변수 join에서 사용
+	function checkTel() { 
+		//const=상수 		const,var,let 차이점 찾기
+		const originalTel=$("#tel").val();
+		const telPatten=/^[0-9]{10,11}$/;
+		//전화번호의 - 문자를 찾아 공백으로 바꾼다. 즉 제거한다.
+		// /g global의미  =>하나만이 아니고 모두 찾아 바꿔라
+		tel=originalTel.replace(/\-/g,'');
+		if(tel.length==0)
+			return printErrorMessage($("#helper_tel"),"필수 입력입니다.");
+		if(!telPatten.test(tel)){
+			return printErrorMessage($("#helper_tel"),"정확한 전화번호를 입력해 주세여.");
+		}
+		$("#helper_tel").text("사용가능합니당").css({"color":"green"});
+		return true;
+	}
+	//6.이메일 사용여부 확인
+	function checkEmail() {
+		let email = $("#email").val();
+		//영문자로 시작,그다음 영숫자 또는 .이 하나이상온디. 그다음 @, 그다음에 영문자 또는.이 하나이상 온다.
+		//.은 정규식에서 임의의 문자라는 뜻을 가지므로, \.escape시켜서 문자화 시킨다.
+		let patt = /^[A-Za-z0-9\.]+@[A-Za-z\.]+$/;
+		if(email.length==0)
+			return printErrorMessage($("#helper_email"),"필수 입력입니다..");
+		if(!patt.test(email)){
+			return printErrorMessage($("#helper_email"),"형식에서 어긋납니다..");
+		}
+		$("#helper_email").text("사용가능합니당").css({"color":"green"});
+		return true;
+	}
+	
+	function ajaxEmail(){
+		let email = $("#email").val();
+		$.ajax({
+			url:"http://192.168.0.72:80/cha_board/api/users/user/email",
+			data:"email="+email,
+			method:"get"
+		})
+		.done(()=>printMessage($('#helper_email'),"사용가능합니다."))
+		.fail(()=>printErrorMessage($('#helper_email'),"사용중인 이메일입니다."));
+	}
+	//7. 생년월일 확인
+	function checkBirthDate(){
+		if($("#birthYear").val().length==0)
+			return printErrorMessage($('#helper_birthDate'),"년도 4자리를 입력하세요.");
+			
+		else if($("#birthMonth").val()==null)
+			return printErrorMessage($('#helper_birthDate'),"월 2자리를 선택하세요.");
+			
+		else if($("#birthDay").val().length==0)
+			return printErrorMessage($('#helper_birthDate'),"날짜 2자리를 입력하세요.");
+			
+		if(/^[0-9]{4}$/.test($("#birthYear").val())==false)
+			return printErrorMessage($('#helper_birthDate'),"년도는 숫자 4자리입니다.");
+		
+		$("#helper_birthDate").text("가능합니다").css({"color":"green"});
+		return true;
+	}
+	//8. 회원 가입 버튼
+	function join() {
+		//프사가 포함될수도 있기 때문에 FormData로 전송해야됨
+		//폼을 formData객체에 입력해야 함.
+		//name속성을 가진 <input>요소만 formdata에 입력
+		//생년월일의 녀느월,일 결합해서 formdata에 입력해야 되므로 name을 주지 않았다. 
+		//전화번호도 혹시 입력된 -문자를 제외해서 formdata에 입력해야 되므로 name을 주지 않았다.
+		//name속성을 키값으로 FormData객체에 입력함.
+		var formData = new FormData(document.getElementById('joinForm'));
+		//-문자가 삭제된 전화번호
+		formData.append("tel",tel);
+		//년,월,일 결합
+		formData.append("birthData",$("#birthYear").val()+"-"+$("#birthMonth").val()+"-"+$("#birthDay"));
+		
+		fd(formData);
+		$.ajax({
+			url:"http://192.168.0.72:80/cha_board/api/users",
+			method:"post",
+			processData: false,
+			contentType: false,
+			data: formData
+		})
+		.done((result)=>toastr.success(result,"서버메시지."))
+		.fail((xhr)=>printError(xhr,"회원가입에 실패했습니다."));
+	
+	}
 	
 	$(function() {
 		//각 input요소의 이벤트 지정
@@ -131,7 +216,18 @@
 				ajaxEmail(); //서버와 비동기 동기
 		});
 		$("#birthYear,#birthMonth,#birthDay").on("blur",checkBirthDate);
-	})
+		//가입 버튼 누르면
+		$("#join").on("click",function(){
+			//개발자도구로 변경할 수 있으므로 2차 체크 진행
+			if(!checkUsername() || !checkIrum() || !checkPassword() || !checkPassword2() 
+					|| !checkTel() || !checkEmail() || !checkBirthDate())
+				return false;
+			//비동기 조건 체크: $when을 이용해서 둘이상의 조건을 동시에 체크함 : id와 email사용가능을 비동기 실행
+			$.when($.ajax("http://192.168.0.72:80/cha_board/api/users/user/username?username="+$("#username").val())
+				,$.ajax("http://192.168.0.72:80/cha_board/api/users/user/email?email="+$("#email").val()))
+				.done(()=>join());
+		}); //join end
+	});
 </script>
 </head>
 <body>
@@ -146,7 +242,7 @@
 					<div class="form-group">
 						<label for="profile">프로필 사진</label> <span class="help-block"
 							id="helper_profile">1M이하만 가능</span> <input type="file"
-							id="profile" class="form-control"
+							id="profile" name="profile" class="form-control"
 							accept=".jpg,.jpeg,.png,.gif,.bmp">
 						<!-- accept 확장자 제한 -->
 					</div>
