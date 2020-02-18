@@ -32,7 +32,6 @@ public class HomeController {
 		logger.info("로그인화면으로 이동");
 		mav = new ModelAndView();
 		mav.setViewName("home"); // 로그인 화면
-		
 		return mav;
 	}
 	@RequestMapping(value = "/access", method = RequestMethod.POST)

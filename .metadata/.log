@@ -865,3 +865,9 @@ java.lang.NullPointerException
 	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
 	at org.eclipse.wst.jsdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:374)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-18 17:51:25.628
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-18 17:51:25.853
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

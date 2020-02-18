@@ -51,7 +51,7 @@
 				return printErrorMessage($("#helper_id"),"아이디는 영숫자 8~10자 입니다.");
 		return true; //적합한 아이디 리턴
 	}
-	
+	//name중복값 확인
 	function ajaxUsername(){
 		var username=$('#username').val();
 		$.ajax({
@@ -136,7 +136,7 @@
 		let email = $("#email").val();
 		//영문자로 시작,그다음 영숫자 또는 .이 하나이상온디. 그다음 @, 그다음에 영문자 또는.이 하나이상 온다.
 		//.은 정규식에서 임의의 문자라는 뜻을 가지므로, \.escape시켜서 문자화 시킨다.
-		let patt = /^[A-Za-z0-9\.]+@[A-Za-z\.]+$/;
+		let patt = /^[A-Za-z0-9\.]+@[A-Za-z\.]+$/; //정규식 영문부터 숫자까지
 		if(email.length==0)
 			return printErrorMessage($("#helper_email"),"필수 입력입니다..");
 		if(!patt.test(email)){
@@ -145,7 +145,7 @@
 		$("#helper_email").text("사용가능합니당").css({"color":"green"});
 		return true;
 	}
-	
+	//email중복값 확인
 	function ajaxEmail(){
 		let email = $("#email").val();
 		$.ajax({
@@ -167,8 +167,8 @@
 		else if($("#birthDay").val().length==0)
 			return printErrorMessage($('#helper_birthDate'),"날짜 2자리를 입력하세요.");
 			
-		if(/^[0-9]{4}$/.test($("#birthYear").val())==false)
-			return printErrorMessage($('#helper_birthDate'),"년도는 숫자 4자리입니다.");
+		if(/^[0-9]{4}$/.test($("#birthYear").val())==false) //정규식 숫자0~9 4자리
+			return printErrorMessage($('#helper_birthDate'),"년도는 숫자 4자리 입력해야됩니다.");
 		
 		$("#helper_birthDate").text("가능합니다").css({"color":"green"});
 		return true;
