@@ -1,6 +1,6 @@
 const apiKey="6Bq2SNPavRoT8QHnv4Vj11p4IBuuzh";
 const username="bbbbbbbb12"; 
-
+//bbbbbbbb11
 
 //1.입력 체크 실패 메시지 출력
 function printErrorMessage(element, message) {
