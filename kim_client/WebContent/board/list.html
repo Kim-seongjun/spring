@@ -206,9 +206,10 @@ function getPagination(page) {
 			location.href = "/kim_client/board/list.html?writer="+ $(this).data("id");
 		});
 		
-		$("#findJoinDate").on("click",function(){
+		$("#findJoinDate").on("click",function(e){
 			const params = {
-					username : $(this).data("id"),
+					username : this.getAttribute("data-id"),
+					//username : e.target.dataset.id,
 					apiKey : apiKey
 			};
 			$.ajax({

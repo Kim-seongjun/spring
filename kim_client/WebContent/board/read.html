@@ -2,9 +2,103 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>글 상세보기</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link rel="stylesheet" href="/kim_client/css/main.css">
+<link rel="stylesheet" href="/kim_client/css/read.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- 제이쿼리 -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- 부트스트랩 -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<!-- ck에디터 -->
+<script src="/kim_client/ckeditor/ckeditor.js"></script>
+<script src="/kim_client/script/main.js?ver1"></script>
+
+<script>
+
+let board;
+$(function(){
+	let ck = undefined;
+	const bno = location
+}) 
+
+
+</script>
 </head>
 <body>
-<h1>글 상세보기</h1>
+
+	<div id="page">
+		<header id="header"> </header>
+		<nav id="nav"></nav>
+		<div id="main">
+			<aside id="aside"></aside>
+			<section id="section">
+				<div id="title_div">
+					<!-- 제목, 작성자 출력 영역 -->
+					<div id="upper">
+						<label for="title" id="title_label"> 제목</label> <input type="text"
+							id="title"><span id="writer"></span>
+					</div>
+					<!-- 글번호, 작성일, 아이피, 추천수, 조회수, 신고수 출력 영역 -->
+					<div id="lower">
+						<ul id="lower_left">
+							<li>글번호<span id="bno"></span></li>
+							<li><span id="writeDate"></span></li>
+							<li><span id="ip"></span>
+						</ul>
+						<ul id="lower_right">
+							<li><button type="button" class="btn btn-primary" id="a">
+									추천 <span class="badge" id="recommendCnt"></span>
+								</button></li>
+							<li><button type="button" class="btn btn-success" id="b">
+									조회 <span class="badge" id="readCnt"></span>
+								</button></li>
+							<li><button type="button" class="btn btn-danger" id="c">
+									신고 <span class="badge" id="reportCnt"></span>
+								</button></li>
+						</ul>
+					</div>
+					<!-- 첨부파일 출력 영역 -->
+					<div>
+						<ul id="attachment">
+						</ul>
+					</div>
+				</div>
+				<!--  본문, 갱신 버튼, 삭제 버튼 출력 영역 -->
+				<div id="content_div">
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="content"
+							name="content"></textarea>
+					</div>
+					<div id="btnArea"></div>
+					<!-- 변경, 삭제 버튼 -->
+				</div>
+				<div class="form-group">
+					<label for="comment_teaxarea">댓글을 입력하세요</label>
+					<textarea class="form-control" rows="5" id="comment_textarea"
+						placeholder="욕설이나 모욕적인 댓글은 삭제될 수 있습니다"></textarea>
+				</div>
+				<div style="text-align: center;">
+					<button type="button" class="btn btn-info" id="comment_write">
+						<span class="glyphicon glyphicon-ok"></span>댓글 작성
+					</button>
+				</div>
+				<hr>
+				<div id="comments"></div> 
+				<!-- 댓글 리스트 -->
+			</section>
+		</div>
+		<footer id="footer"> </footer>
+	</div>
 </body>
 </html>
