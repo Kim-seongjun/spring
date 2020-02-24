@@ -127,7 +127,7 @@ function getPagination(page) {
 				
 				//세번째 td : 제목을 출력 하고 링크 걸기
 				const $td=$("<td></td>").text($board.title).appendTo($tr);
-				const $link = $("<a>").attr("href", "/cha_client/board/read.html?bno=" + $board.bno);
+				const $link = $("<a>").attr("href", "/kim_client/board/read.html?bno=" + $board.bno);
 				$($td).wrapInner($link); //부모안에 쏴라
 				//제목에 a태그
 				
@@ -262,12 +262,12 @@ function getPagination(page) {
 				<div style="text-align: center;">
 					<ul id="pagination" class="pagination"></ul>
 				</div>
-				
+
 				<!-- 글쓰기 번튼 영역 -->
 				<div style="text-align: center;" id="write_button_area">
 					<!-- html 으로 버튼을 만든다. -->
 					<!-- <button class="btn btn-success custom">글쓰기</button> -->
-					
+
 				</div>
 
 				<!-- bootstrap 모달박스:컨텍스트 메뉴를 출력할 영역-->
