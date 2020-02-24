@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>글쓰기</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link rel="stylesheet" href="/kim_client/css/main.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- 제이쿼리 -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- 부트스트랩 -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<!-- ck에디터 -->
+<script src="/kim_client/ckeditor/ckeditor.js"></script>
+<script src="/kim_client/script/main.js?ver1"></script>
+
+<script>
+	function () {
+		let ck = CKEDITOR.replace("content",{
+			filebrowserUploadUrl:'http://192.168.0.99/cha_board/api/boards/ckupload'
+		});
+		
+		$("#addAttachment").on("click",function(){
+			const input = $("<input>").attr("type","file").attr("class","form-control-file");
+			$("#attach").append(input);
+		});
+		
+		$("#write").on("click",function(){
+			var formData = new FormData();
+			formData.append("content",CKEDITOR.instances['content'].getData());
+			
+			formData.append("apiKey",apiKey);
+			
+			$.each($(".form-control-file"),function(idx, attachment){
+				console.log("2=","attachment"); //파일태그
+				console.log("3=",$(this));
+				
+				if($(this)[0].files[0]!=undefined) //파일이 첨부되었다면
+				formData.append("attachments",$(this)[0].files[0]);
+			});
+			
+			$.ajax({
+				url : "http://192.168.0.99/cha_board/api/boards"
+				data : formData,
+				method: "post",
+				processData : false,
+				contentType : false
+			}).then((result,textStatus,request)=>location.href = "http://localhost/kim_client/board/list.html")
+			.fail((xhr)=>toastr.warning(xhr.responseText,"경고"));
+			
+		});
+		
+	}
+	
+	
+	
+	
+	
+	
+</script>
+</head>
+<body>
+	<div id="page">
+		<header id="header"> </header>
+		<nav id="nav"></nav>
+		<div id="main">
+			<aside id="aside"></aside>
+			<section>
+				<form id="writeForm" action="/cha_board/boards/write">
+					<div class="form-group">
+						<label for="title">제목:</label> <input type="text"
+							class="form-control" id="title" placeholder="제목" name="title">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="content"
+							name="content"></textarea>
+					</div>
+					<div class="form-group" id="attach">
+						<button type="button" id="addAttachment">첨부 파일 추가</button>
+					</div>
+					<button type="button" class="btn btn-success" id="write">작성</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	$("#menu_parent").on("click", "#resign", function(e) {
+		e.preventDefault();
+		var choice = confirm('회원을 탈퇴하시겠습니까? 같은 아이디로 재가입할 수 없으며 모든 글은 삭제됩니다');
+		if(choice==false)
+			return;
+		var params = {
+			_method: "delete",
+			username : username,
+			apiKey : apiKey
+		}
+		$.ajax({
+			url:"http://192.168.0.99/cha_board/api/users/user",
+			method: "post",
+			data:params
+		}).done((result, textStatus, request)=> location.href = '/cha_client')
+		.fail((xhr)=>printError(xhr, "탈퇴에 실패했습니다"));
+	});
+</script>
+</head>
+<body>
+<div id="nav" class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/kim_client/board/list.html">HOME</a>
+		</div>
+		<ul class="nav navbar-nav" id="menu_parent">
+			<li><a href="/kim_client/board/list.html">회원가입</a></li>
+        	<li><a href='/kim_client/board/list.html'>내 정보</a></li>
+       		<li><a id='resign' href='#'>탈퇴</a></li>
+			<li><a href="/kim_client/board/list.html">게시판</a></li>
+    	</ul>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+
+<script>
+	
+	
+	
+	
+	
+	
+	
+</script>
+</head>
+<body>
+<div id="page">
+   <header id="header">
+   </header>
+   <nav id="nav">
+   </nav>
+   <div id="main">
+      <aside id="aside">
+      </aside>
+      <section>
+         <form id="writeForm" action="/cha_board/boards/write">
+            <div class="form-group">
+               <label for="title">제목:</label>
+               <input type="text" class="form-control" id="title" placeholder="제목" name="title">
+             </div>
+             <div class="form-group">
+               <textarea class="form-control" rows="5" id="content" name="content"></textarea>
+            </div>
+            <div class="form-group" id="attach">
+               <button type="button" id="addAttachment">첨부 파일 추가 </button>
+            </div>
+            <button type="button" class="btn btn-success" id="write">작성</button>
+         </form>
+      </section>
+   </div>
+</div>
+</body>
+</html>
