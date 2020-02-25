@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/cha_client/css/main.css">
+<script>
+$(function() {
+	$("#findKey").on("click", function() {
+		var param = {
+			username : $("#username").val(),
+			password : $("#password").val()
+		}
+		$.ajax({
+			url: "http://192.168.0.99/cha_board/api/users/apiKey/",
+			data : param,
+			method: "post",
+		}).then((result)=> {
+			$("#alert").attr("class", "alert-success").text("API 키 : " + result);
+			$("#msg").css("height", "50px").css("line-height", "50px").css("text-align", "center").show();
+		}).fail((xhr)=>{
+			$("#alert").text(xhr.responseText + " API키 검색에 실패했습니다");
+			$("#msg").attr("class", "alert-danger").css({
+				"height" : "50px",
+				"line-height": "50px",
+				"text-align": ""
+			}).show();
+		});
+	});
+})
+
+</script>
+</head>
+<body>
+<div id="page">
+	<header id="header">
+	</header>
+	<nav id="nav">
+	</nav>
+	<div id="main">
+		<aside id="aside">
+		</aside>
+		<section id="section">
+			<div class="alert alert-success alert-dismissible" id="msg" style="display:none;">
+		    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    	<strong>서버 메시지 </strong><span id="alert"></span>
+		  	</div>
+			<div>
+				<div class="form-group">
+					<label for="login_username">아이디</label>
+					<input type="text" id="username" class="form-control">
+					<span class="helper-text" id="login_username_helpler"></span>
+				</div>
+				<div class="form-group">
+					<label for="login_pwd">비밀번호</label>
+					<input type="password" id="password" class="form-control">
+					<span class="helper-text" id="login_pwd_helper"></span>
+				</div>
+				<div style="text-align: center">
+					<button class="btn btn-success custom" id="findKey">로그인</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="button" id="home" class="btn btn-primary custom">HOME</button>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer id="footer">
+	</footer>
+</div>
+</body>
+</html>

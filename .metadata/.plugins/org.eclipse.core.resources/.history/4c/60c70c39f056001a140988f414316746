@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>foodshopRegister</title>
+<style>
+
+</style>
+
+</head>
+<body>
+<div id="food_form">
+	<form action="foodRegisterUpload">
+		<div>
+			<h3>상호명 입력해주세요.</h3>
+			<input type="text" name="food_name">
+		</div>
+		<div>
+			<h3>메인사진을 등록해주세요.</h3>
+			<input type="text" name="food_mainImage">
+			<img alt="" src="">
+		</div>
+		<div>
+			<h3>주소를 입력해주세요.</h3>
+			<input type="text" name="food_address">
+		</div>
+	</form>
+</div>
+</body>
+</html>

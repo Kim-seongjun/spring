@@ -5,6 +5,12 @@
 <title>Insert title here</title>
 <script>
 	$("#menu_parent").on("click", "#resign", function(e) {
+		//html에서 a태그나 submit 태그는 고유의 동작이 있다.
+	    //페이지를 이동시킨다거나 form안에 있는 input등을 전송한다던가
+	    //그러한 동작이 있는데 e.preventDefault();는 그 동작을 중단시킨다.
+	    //e.preventDefault();
+		
+		
 		e.preventDefault();
 		var choice = confirm('회원을 탈퇴하시겠습니까? 같은 아이디로 재가입할 수 없으며 모든 글은 삭제됩니다');
 		if(choice==false)
@@ -30,8 +36,8 @@
 			<a class="navbar-brand" href="/kim_client/board/list.html">HOME</a>
 		</div>
 		<ul class="nav navbar-nav" id="menu_parent">
-			<li><a href="/kim_client/board/join.html">회원가입</a></li>
-        	<li><a href='/kim_client/board/readme.html'>내 정보</a></li>
+			<li><a href="/kim_client/user/join.html">회원가입</a></li>
+        	<li><a href='/kim_client/user/readme.html'>내 정보</a></li>
        		<li><a id='resign' href='#'>탈퇴</a></li>
 			<li><a href="/kim_client/board/list.html">게시판</a></li>
     	</ul>

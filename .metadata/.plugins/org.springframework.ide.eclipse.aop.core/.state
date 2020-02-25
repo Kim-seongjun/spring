@@ -16,5 +16,4 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:ss03|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:beans:10|8:homeController:10" bean-file="/ss03/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/ss03/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=ss03/C:\/Users\/14\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.2.1.RELEASE\/spring-security-core-5.2.1.RELEASE.jar&lt;org.springframework.security.access.intercept.aopalliance(MethodSecurityInterceptor.class[MethodSecurityInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=ss03/src\/main\/java&lt;com.icia.ss03{HomeController.java[HomeController~manager" target-start-line="41"/>
 </aspect-definition>
 </aop-project>
-<aop-project name="testSpring"/>
 </aop-reference-model>

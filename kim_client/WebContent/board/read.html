@@ -22,13 +22,37 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <!-- ck에디터 -->
 <script src="/kim_client/ckeditor/ckeditor.js"></script>
-<script src="/kim_client/script/main.js?ver1"></script>
+<script src="/kim_client/script/main.js?ver2"></script>
 
 <script>
-// function printComment(comments) {
-	
-// }
 
+//댓글 출력
+function printComment(comments) {
+   console.log("com=",comments);
+   // 댓글을 출력할 div의 모든 자식을 삭제(출력중인 모든 댓글을 삭제)
+   const $comments = $("#comments");
+   $comments.empty();
+   $.each(comments, function(i, comment){
+      const $comment = $("<div>").appendTo($comments)
+      const $upper_div = $("<div>").appendTo($comment);
+      const $center_div = $("<div>").appendTo($comment);
+      const $lower_div = $("<div>").appendTo($comment);
+      $("<span></span>").text(comment.writer).appendTo($upper_div);
+      $("<img>").attr("src", comment.sajin).css("width","40px")
+                .appendTo($center_div);
+      $("<span>").text(comment.content).appendTo($center_div);
+      $("<span>").text(comment.writeDate,"date").appendTo($lower_div);
+      if(comment.writer==board.loginId) {
+         $("<button>").attr("class", "delete_comment")
+                      .attr("data-cno", comment.cno)
+                     .attr("data-bno", board.bno)
+                     .attr("data-writer", comment.writer)
+                     .text("삭제").css("float","right")
+                     .appendTo($center_div);
+      }
+      $("<hr>").appendTo($comment);
+   });//each End
+}
 
 //첨부파일 출력(삭제시에도 다시 출력해야 함)
 function printAttachment(attachments) {

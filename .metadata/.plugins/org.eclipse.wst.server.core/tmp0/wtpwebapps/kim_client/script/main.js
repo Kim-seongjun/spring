@@ -1,5 +1,5 @@
-const apiKey="6Bq2SNPavRoT8QHnv4Vj11p4IBuuzh";
-const username="bbbbbbbb12"; 
+const apiKey="kwkwFx6gOC70r2LZzpudPEHEzbgGQH";
+const username="aaaaaaaa3";
 //bbbbbbbb11
 
 //1.입력 체크 실패 메시지 출력
