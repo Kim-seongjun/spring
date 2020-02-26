@@ -1,0 +1,32 @@
+package icia.project.gabom.service;
+
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.ModelAndView;
+
+import icia.project.gabom.dao.IAdminDao;
+import icia.project.gabom.dto.House;
+
+
+
+@Service
+public class adminManagement {
+	@Autowired
+	private IAdminDao iad;
+	private ModelAndView mav;
+	
+	public void showadmindate() {
+		House house = new House();
+		mav = new ModelAndView();
+		List<House> =iad.gethouseList(0);
+		
+		
+		
+		
+		
+	}
+	
+}

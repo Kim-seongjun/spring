@@ -1,0 +1,5 @@
+package icia.project.gabom.dto;
+
+public class Admin {
+
+}

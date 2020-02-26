@@ -1,0 +1,8 @@
+package icia.project.gabom.service;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class adminManagement {
+	
+	private ModelAndView mav;
+}

@@ -1,0 +1,23 @@
+package icia.project.gabom.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.ModelAndView;
+
+import icia.project.gabom.dao.IAdminDao;
+
+@Service
+public class AdminjudgeManagement {
+	@Autowired
+	private IAdminDao aDao;
+	private ModelAndView mav;
+	
+	public ModelAndView housejudgelist() {
+		mav = new ModelAndView();
+		
+		
+		return null;
+	} //housejudgelist End
+	
+	
+}//class End

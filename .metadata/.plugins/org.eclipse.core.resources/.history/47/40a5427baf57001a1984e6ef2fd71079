@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>서비스업체 등록 심사</title>
+
+<style>
+#admin_div{
+	border: 1px solid black;
+}
+#admin_menu{
+	border: 1px solid black;
+	width: 10%;
+	height: 50%;
+	float: left;
+}
+#admin_list{
+	width: 89%;
+	float: right;
+}
+#service_judge{
+	border: 1px solid black; 
+}
+#tour_judge{
+	border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h3>servicejudgelist.jsp</h3>
+<div id="admin_div" >
+	<div id="admin_menu">
+		<ul>
+			<li><a href="#">서비스업체 등록심사</a></li>
+			<li><a href="#">서비스업체 신고관리</a></li>
+			<li><a href="#">여행객계획 등록심사</a></li>
+			<li><a href="#">여행객 신고관리</a></li>
+			<li><a href="#">전체회원 공지사항</a></li>
+			<li><a href="#">Q&A</a></li>
+			<li><a href="#">@</a></li>
+		</ul>
+	</div>
+	<div id="admin_list">
+		<div id="service_judge">
+			<form action="">
+				knjlasdfnjkldfj
+			</form>
+		</div>
+		<div id="tour_judge">
+			<form action="">
+				asdjkfnjsdfnvjx
+			</form>
+		</div>	
+	</div>
+
+</div>
+
+</body>
+</html>

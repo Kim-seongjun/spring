@@ -1,0 +1,9 @@
+package icia.project.gabom.dao;
+
+import icia.project.gabom.dto.House;
+
+public interface IAdminDao {
+	House gethouseList(int num);
+	
+	
+}

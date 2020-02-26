@@ -12,12 +12,13 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- 제이쿼리 -->
 <script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- 부트스트랩 -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <!-- ck에디터 -->
@@ -54,33 +55,25 @@ function printComment(comments) {
    });//each End
 }
 
-//첨부파일 출력(삭제시에도 다시 출력해야 함)
+//첨부파일 출력(삭제시 새로고침)
 function printAttachment(attachments) {
-	const $ul = $("#attachment");
-	console.log("board=",board); //전역변수
-	console.log("attachment=",attachment); //매개변수
-	//첨부파일 2개중 1개를 삭제하면 첨부파일 1개가 보여야된다.
-	//그런데, 서버에서 쏴 준 첨부파일 리스트를 그대로 append 하면 오히려 3개가 된다.
+	const $ul = $("#attachment"); //매개변수
+	
+	//첨부파일 2개중 1개를 삭제하면 첨부파일 1개 보이기, but 서버에서 쏴 준 첨부파일 리스트를 그대로 append 하면 오히려 3개가 된다. 
 	//현재 ul에 출력중인 파일 리스트부터 삭제
 	$ul.empty();
 	$.each(attachments, function(i, attachment){
 		const $li = $("<li></li>").appendTo($ul);
 		//첨부파일에 아이콘 추가
 		if(attachment.image==true){
-			$('<i class="fa fa-file-image-o"></i>').appendTo($li);
+			$('<i class="fa fa-file-image-o"></i>').appendTo($li); //첨부파일이 있는경우
 		}else{
-			$('<i class="fa fa-paperclip"></i>').appendTo($li);
+			$('<i class="fa fa-paperclip"></i>').appendTo($li); //첨부파일이 없는경우
 		}
 		//첨부파일에 대한 링크를 파일명에 추가
 		const queryString="cha_board/api/boards/attachments?ano="+attachment.ano + "&apiKey="+apiKey;
 		$("<a>").attr("href",queryString).text(attachment.originalName).appendTo($li);
-		
-		//첨부파일에 대한 삭제 <span>X</span>
-		//클릭 이벤트를 잡기위해 class='delete_attachment' 설정
-		//첨부파일이 하나이상이므로 delete_attachment 클래스의 click이벤트에서
-		//어떤 첨부파일 삭제를 클릭했는지 알아내기 위해 data-ano 속성을 지정
-		//data-로 시작하는 속성을 html5 표준속성으로 태그에 값을 저장하는 역할을 한다.
-		//jQuery의 data()함수로 읽어올 수 있다.
+				
 		if(board.writer == board.loginId){
 			$li.append("<span class='delete_attachment' data-ano='" 
 					+ attachment.ano + "'data-bno='" 
@@ -95,14 +88,14 @@ function printAttachment(attachments) {
 	// 글 출력
 	function printData() {
 		//글쓴이, 제목, 글번호, 아이피 주소, 작성일시, 추천수, 조회수, 신고수, 본문 출력
-		$("#writer").text(board.writer);
+		$("#writer").text(board.writer); //글쓴이
 		$("#title").val(board.title).prop("readonly",true); //제목은 읽기만 가능
-		$("#bno").text(board.bno);
-		$("#ip").text(board.ip);
-		$("#writeDate").text(board.writeDate); 
-		$("#recommendCnt").text(board.recommendCnt);
-		$("#readCnt").text(board.readCnt);
-		$("#reportCnt").text(board.reportCnt);
+		$("#bno").text(board.bno); //글번호
+		$("#ip").text(board.ip); //아이피주소
+		$("#writeDate").text(board.writeDate); //작성일 
+		$("#recommendCnt").text(board.recommendCnt); //추천수
+		$("#readCnt").text(board.readCnt); //조회수
+		$("#reportCnt").text(board.reportCnt); //신고수
 		$("#content").html(board.content).prop("readonly",true); //본문 읽기만 가능
 		
 		if(board.writer == board.loginId){ //게시글이 본인일시
@@ -155,11 +148,11 @@ $(function() {
    }).fail((xhr)=> printError(xhr, "글을 읽을 수 없습니다"));
 
    
-   // 1. 글 업데이트 이벤트 핸들러
+   //글 수정
    $("#btnArea").on("click", "#btnUpdate", function() {
-      if(board.writer!=board.loginId)
+      if(board.writer!=board.loginId) //작성자가 본인이 아닌경우 불가
          return;
-      const param = {
+      const param = { //작성자가 본인인경우
          _method:"put",  //@PutMapping("/boards")
          bno: board.bno,
          title:$("#title").val(),
@@ -170,14 +163,14 @@ $(function() {
          url : "http://192.168.0.99/cha_board/api/boards",
          method: "post",
          data:param
-      }).done(()=>location.reload()).fail((xhr)=>printError(xhr, "글을 업데이트할 수 없습니다"));
+      }).done(()=>location.reload()).fail((xhr)=>printError(xhr, "글을 수정할 수 없습니다"));
    });
    
-   // 2. 글 삭제 이벤트 
+   //글 삭제  
    $("#btnArea").on("click", "#btnDelete", function() {
-      if(board.writer!=board.loginId)
+      if(board.writer!=board.loginId) //작성자가 본인이 아닌경우 삭제 불가
          return;
-      const param = {
+      const param = { //작성자가 본인인경우
          _method:"delete",
          bno: board.bno,
          apiKey: apiKey
@@ -189,11 +182,11 @@ $(function() {
       }).done(()=>location.href="/cha_client/board/list.html").fail((xhr)=>printError(xhr, "글을 삭제할 수 없습니다"));
    });
    
-   // 3. 첨부파일 삭제
+   //첨부파일 삭제
    $("#attachment").on("click", ".delete_attachment", function() {
-      if(board.writer!=board.loginId)
+      if(board.writer!=board.loginId) //작성자가 본인이 아닌경우 리턴
          return;
-      const param = {
+      const param = { //작성자가 본인인경우
          _method:"delete",
          ano: $(this).data("ano"),  //ano 삭제하고
          bno: $(this).data("bno"),  //bno 해당하는 모든 첨부파일 가져오기위해  
@@ -207,28 +200,28 @@ $(function() {
       }).then((result)=>printAttachment(result)).fail((xhr)=>printError(xhr, "첨부파일을 삭제할 수 없습니다"));   
    });
    
-   // 4. 글 추천
+   //글 추천
    $("#lower_right").on("click", "#a", function() {
-      if(board.writer==board.loginId)
+      if(board.writer==board.loginId) //작성자가 본인인경우 추천불가
          return;
-      const param = {
+      const param = { //작성자가 본인이 아닌경우 추천가능
          bno: board.bno,
-         _method: "patch",  //
+         _method: "patch",  
          apiKey: apiKey,
          isRecommend: 'true'
       };
       $.ajax({
          url: "http://192.168.0.99/cha_board/api/boards/board",
-         method: "post", //patch인데 post라고 명시???
+         method: "post", 
          data: param
       }).done((result)=>{$("#recommendCnt").text(result);alert(result)}).fail((xhr)=>printError(xhr, "글을 추천할 수 없습니다"));
    });
    
-   // 5. 글 신고
+   //글 신고
    $("#lower_right").on("click", "#c", function() {
-      if(board.writer==board.loginId)
+      if(board.writer==board.loginId) //작성자가 본인인경우 신고불가
          return;
-      const param = {
+      const param = { //작성자가 본인이 아닌경우 신고가능
          bno: board.bno,
          _method: "patch",
          apiKey: apiKey,
@@ -241,7 +234,7 @@ $(function() {
       }).done((result)=>$("#reportCnt").text(result)).fail((xhr)=>printError(xhr, "글을 신고할 수 없습니다"));
    });
    
-   // 6. 댓글 작성
+   //댓글 작성
    $("#comment_write").on("click", function() {
       var params = {
          bno: board.bno,
@@ -254,15 +247,15 @@ $(function() {
          data : params
       }).done((result)=>{
          $("#comment_textarea").val(""); 
-         printComment(result);
+         printComment(result); //댓글작성시 리스트 출력
       }).fail((xhr)=>printError(xhr, "댓글을 작성할 수 없습니다"));
    });
    
-   // 7. 댓글 삭제
+   //댓글 삭제
    $("#comments").on("click", ".delete_comment", function() {
-      if($(this).data("writer")!=board.loginId)
+      if($(this).data("writer")!=board.loginId) //작성자가 본인이 아닌경우 삭제불가
          return;
-      var param = {
+      var param = { //작성자가 본인인경우 삭제가능
          _method:"delete",
          cno : $(this).data("cno"),
          bno : board.bno,

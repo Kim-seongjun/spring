@@ -1,0 +1,21 @@
+package icia.project.gabom.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.ModelAndView;
+
+
+
+@Service
+public class adminManagement {
+	
+	private ModelAndView mav;
+	
+	public void showadmindate() {
+		mav = new ModelAndView();
+		List<house> hList = null;
+		
+	}
+	
+}
