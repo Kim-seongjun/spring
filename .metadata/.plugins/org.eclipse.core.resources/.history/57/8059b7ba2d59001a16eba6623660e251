@@ -1,0 +1,59 @@
+package icia.project.gabom.service;
+
+import java.util.List;
+import java.util.Map;
+
+import org.json.JSONArray;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.google.gson.Gson;
+
+import icia.project.gabom.dao.IAdminDao;
+
+@Service
+public class AdminjudgeManagement {
+	@Autowired
+	private IAdminDao aDao;
+	private ModelAndView mav;
+	
+	public ModelAndView housejudgelist() {
+		mav = new ModelAndView();
+		
+		List<Map<String, String>> hlist = aDao.getHouseList();
+		System.out.println("List="+hlist);
+		System.out.println("List="+hlist.get(0));
+		System.out.println("hlist="+hlist.size());
+		int i = 0;
+		for(i=0;i<hlist.size();i++) {
+			//System.out.println(hlist.get(i).toString());
+			System.out.println(hlist.get(i).get("HOUSE_NAME"));
+		}
+		//Gson gs = new Gson();
+		
+		//String json = gs.toJson(hlist.get(0));
+		JSONArray jsonArray = new JSONArray();
+
+		for (Map<String, String> map : hlist) {
+
+			jsonArray.add(convertMapToJson(map));
+
+		}
+
+		return jsonArray;
+
+
+
+	출처: https://lemontia.tistory.com/427 [안녕하세요]
+		
+		
+		
+		
+		mav.addObject("housejudge", hlist);
+		mav.setViewName("adminmenu");
+		return mav;
+	} //housejudgelist End
+	
+	
+}//class End

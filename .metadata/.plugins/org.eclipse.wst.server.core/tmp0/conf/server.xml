@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\springwork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\springwork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\gabom" path="/gabom" reloadable="true" source="org.eclipse.jst.jee.server:gabom"/><Context docBase="E:\springwork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\kim_client" path="/kim_client" reloadable="true" source="org.eclipse.jst.jee.server:kim_client"/></Host>
+      <Context docBase="E:\springwork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\springwork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\gabom" path="/gabom" reloadable="true" source="org.eclipse.jst.jee.server:gabom"/></Host>
     </Engine>
   </Service>
 </Server>
