@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="currval값"/>
+		<item key="selection" value="&quot;write&quot;"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&quot;write&quot;"/>
+			<item value="작성"/>
+			<item value="write"/>
+			<item value="addAttachment"/>
+			<item value="judge_modal"/>
+			<item value="td"/>
+			<item value="tbody"/>
+			<item value="글쓰기"/>
+			<item value="housemain_judge"/>
 			<item value="currval값"/>
 			<item value="foodRegisterUpload"/>
 			<item value="food_sysname"/>
 			<item value="승인"/>
 			<item value="house_rooms"/>
 			<item value="if"/>
-			<item value="modal"/>
-			<item value="printComment"/>
-			<item value="font"/>
-			<item value="client"/>
-			<item value="192.168.0.72"/>
-			<item value="192.168."/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1499"/>
+		<item key="DIALOG_X_ORIGIN" value="1459"/>
 		<item key="DIALOG_Y_ORIGIN" value="32"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="464"/>
