@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.board.icia.dto.Reply"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="com.google.gson.annotations.JsonAdapter"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
@@ -59,5 +58,6 @@
 <fullyQualifiedTypeName name="icia.project.gabom.dto.Adminhouse"/>
 <fullyQualifiedTypeName name="icia.project.gabom.dto.Adminfood"/>
 <fullyQualifiedTypeName name="icia.project.gabom.dto.Adminnotices"/>
+<fullyQualifiedTypeName name="icia.project.gabom.dto.Qnaboard"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
 </qualifiedTypeNameHistroy>

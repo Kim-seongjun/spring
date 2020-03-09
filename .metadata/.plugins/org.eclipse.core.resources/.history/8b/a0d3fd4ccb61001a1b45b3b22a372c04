@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="icia.project.gabom.dao.IAdminDao">
+
+	<!-- 1.parameterTyped에 1개의 Type만 올 수 있다. Type 여러개 인 경우 생략할 것. 2.parameterTyped이 
+		DTO(bean) 인 경우, #{필드명} 으로 쓴다.// 3.parameterTyped이 변수인 경우 #{변수명} 4.parameterTyped이 
+		map<key, value> 인 경우 #{key}만 써라 5. resultType도 1개만 올 수 있는데, 1개 이상의 레코드를 검색 
+		하는 경우 List 쓰지말고 그냥 DTO 타입만 명시 6.#{} 문자열인 경우 자동으로 '' 추가 됨 <-> ${} 이놈은 그냥 문자열 
+		변환이 없다 7. 파라미터 타입은 생략가능하지만 가독성을 위해 비권장!! -->
+	<!-- WHERE HOUSE_GRANTTYPE = 0 -->
+
+	<!-- 하우스리스트 출력 -->
+	<select id="getHouseList" resultType="adminhouse">
+		SELECT * FROM REGISTHOUSE JOIN HOUSEFILE ON REGISTHOUSE.HOUSE_NUMBER = HOUSEFILE.HOUSE_NUMBER 
+		WHERE REGISTHOUSE.HOUSE_GRANTTYPE = 0 AND HOUSE_IMAGETYPE = 1 ORDER BY REGISTHOUSE.HOUSE_NUMBER DESC
+	</select>
+	
+	<!-- 음식점 리스트 출력 -->
+	<select id="getFoodList" resultType="adminfood">
+		SELECT FS.FOOD_HOSTID, FS.FOOD_NUMBER, FS.FOOD_NAME, FS.FOOD_ADDRESS, FS.FOOD_TYPE, FS.FOOD_GRANTTYPE, 
+		FF.FOOD_SYSNAME FROM FOODSHOP FS JOIN FOODFILE FF ON FS.FOOD_NUMBER = FF.FOOD_NUMBER
+		WHERE FF.FOOD_IMAGETYPE = 1 AND FS.FOOD_GRANTTYPE = 0 ORDER BY FOOD_NUMBER DESC
+	</select>
+	
+	<!-- 하우스 모달창 데이터 -->
+	<select id="gethousemodal" parameterType="String" resultType="adminhouse">
+		SELECT * FROM REGISTHOUSE JOIN HOUSEFILE ON REGISTHOUSE.HOUSE_NUMBER = HOUSEFILE.HOUSE_NUMBER 
+		WHERE registhouse.house_number = #{num} 
+	</select>
+	
+	<!-- 음식점 모달창 데이터 -->
+	<select id="getfoodmodal" parameterType="String" resultType="adminfood">
+		SELECT * FROM FOODSHOP JOIN FOODFILE ON FOODSHOP.FOOD_NUMBER = FOODFILE.FOOD_NUMBER
+		WHERE FOODSHOP.FOOD_NUMBER = #{num}
+	</select>
+	
+	<!-- 하우스 승인 granttype = 1 변경-->
+	<update id="houseApproved" parameterType="String">
+		UPDATE REGISTHOUSE SET HOUSE_GRANTTYPE = 1 WHERE HOUSE_NUMBER = #{number}
+	</update>
+	
+	<!-- 음식점 승인 granttype = 1변경 -->
+	<update id="foodApproved" parameterType="String">
+		UPDATE FOODSHOP SET FOOD_GRANTTYPE = 1 WHERE FOOD_NUMBER = #{number}
+	</update>
+	
+	<!-- 하우스 거절 granttype = 2 변경-->
+	<update id="housefuse" parameterType="String">
+		UPDATE REGISTHOUSE SET HOUSE_GRANTTYPE = 2 WHERE HOUSE_NUMBER = #{number}
+	</update>
+	
+	<!-- 음식점 거절 granttype = 2변경 -->
+	<update id="foodfuse" parameterType="String">
+		UPDATE FOODSHOP SET FOOD_GRANTTYPE = 2 WHERE FOOD_NUMBER = #{number}
+	</update>
+	
+	<!-- 전체공지사항 리스트 출력 -->
+	<select id="getadnotices" resultType="adminnotices">
+		SELECT ALL_NOTICES_NUMBER, ALL_NOTICES_TITLE, ALL_NOTICES_DATE, 
+		ALL_NOTICES_VIEWS FROM ALL_NOTICES_BOARD ORDER BY ALL_NOTICES_DATE DESC
+	</select>
+	
+	<!-- 조회수 업데이트 -->
+	<update id="viewsUpdate">
+		UPDATE ALL_NOTICES_BOARD SET ALL_NOTICES_VIEWS = ALL_NOTICES_VIEWS + 1 WHERE ALL_NOTICES_NUMBER = #{num}
+	</update>
+	
+	<!-- 전체공지 디테일 모달 띄우기 -->
+	<select id="getnoticesmodal" resultType="adminnotices">
+		SELECT ALL_NOTICES_NUMBER, ALL_NOTICES_TITLE, ALL_NOTICES_BODY, ALL_NOTICES_DATE, 
+		ALL_NOTICES_VIEWS FROM ALL_NOTICES_BOARD WHERE ALL_NOTICES_NUMBER = #{num}
+	</select>
+	<!-- 글쓰기 등록 -->
+	<insert id="getnoticeswrite" parameterType="String">
+		INSERT INTO ALL_NOTICES_BOARD VALUES (SEQ_ALL_NOTICES_NUMBER.nextval, #{title}, #{content}, SYSDATE, 0)
+	</insert>
+	
+	<!-- qna전체리스트 출력 -->
+	<select id="getqnaboard" resultType="qnaboard">
+		SELECT QNA_NUMBER, QNA_TITLE, QNA_BODY, QNA_MEMBER_ID, QNA_DATE  FROM QNA_BOARD ORDER BY QNA_DATE DESC
+	</select>
+	
+	<!-- 전체공지 디테일 모달 띄우기 -->
+	<select id="getqnamodal" resultType="qnaboard">
+		SELECT QNA_NUMBER, QNA_TITLE, QNA_BODY, QNA_MEMBER_ID, QNA_DATE  FROM QNA_BOARD WHERE QNA_NUMBER = #{num}
+	</select>
+	<!-- 전체공지 디테일 모달 띄우기 -->
+	<select id="getqnaanswer" resultType="qnaboard">
+		SELECT QNA_NUMBER, QNA_TITLE, QNA_BODY, QNA_MEMBER_ID, QNA_DATE  FROM QNA_BOARD WHERE QNA_NUMBER = #{num}
+	</select>
+	
+	
+	
+<!-- 	<select id="getjudgedetail" > -->
+<!-- 		SELECT * FROM  -->
+<!-- 	</select> -->
+	<!-- <insert id="memberJoin" parameterType="member" > -->
+	<!-- INSERT INTO M VALUES(#{m_id},#{m_pwd},#{m_name},#{m_birth},#{m_addr},#{m_phone},default,1) -->
+	<!-- </insert> -->
+
+	<!-- <select id="getSecurityPwd" parameterType="String" resultType="String" 
+		> -->
+	<!-- select M_PWD from member where m_id=#{id} -->
+	<!-- </select> -->
+
+	<!-- <select id="getMemberInfo" parameterType="String" resultType="member" 
+		> -->
+	<!-- select * from member where m_id=#{id} -->
+	<!-- select * from G, M where M.M_POINT BETWEEN G.G_LOWPOINT and G.G_highpoint 
+		and M.M_ID=#{id} -->
+	<!-- </select> -->
+
+	<!-- <select id="hashMapTest" parameterType="Map" resultType="boolean"> -->
+	<!-- select count(*) from member where m_id=#{id} and m_pwd=#{pw} -->
+
+	<!-- </select> -->
+
+	<!-- <select id="hashMapTest2" parameterType="String" resultType="Map"> -->
+	<!-- select M_NAME, G_NAME from MINFO member where m_id=#{id} -->
+
+	<!-- </select> -->
+
+</mapper>

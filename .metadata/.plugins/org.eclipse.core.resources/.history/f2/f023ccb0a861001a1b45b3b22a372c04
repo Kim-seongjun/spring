@@ -1,0 +1,18 @@
+package icia.project.gabom.dto;
+
+import org.apache.ibatis.type.Alias;
+
+import lombok.Data;
+import lombok.experimental.Accessors;
+
+@Alias("qnaboard")
+@Data
+@Accessors(chain=true)
+public class Qnaboard {
+	private int qna_number;
+	private String qna_title;
+	private String qna_body;
+	private String qna_member_id;
+	private String qna_date;
+	
+}
