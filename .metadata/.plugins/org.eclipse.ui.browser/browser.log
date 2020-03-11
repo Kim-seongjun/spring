@@ -44,3 +44,9 @@
 3월 09, 2020 14:46:39.17 [2744:968:0309/144639.173:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
 3월 09, 2020 15:10:19.54 [2744:968:0309/151019.541:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
 3월 09, 2020 18:35:30.31 [2744:968:0309/183530.309:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
+
+3월 11, 2020 13:58:38.65 NEW SESSION
+3월 11, 2020 13:58:38.65 [5036:4476:0311/135838.649:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
+3월 11, 2020 15:47:46.87 [5036:4476:0311/154746.870:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
+3월 11, 2020 16:30:07.86 [5036:4476:0311/163007.866:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
+3월 11, 2020 16:43:39.83 [5036:4476:0311/164339.830:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)

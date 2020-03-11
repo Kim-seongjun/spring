@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="qna_reply"/>
+		<item key="selection" value="pa"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="pa"/>
+			<item value="notices_body"/>
 			<item value="qna_reply"/>
 			<item value="board"/>
 			<item value="id=&apos;board&apos;"/>
@@ -21,8 +23,6 @@
 			<item value="replace"/>
 			<item value="&quot;write&quot;"/>
 			<item value="작성"/>
-			<item value="write"/>
-			<item value="addAttachment"/>
 		</list>
 		<list key="replacehistory">
 		</list>

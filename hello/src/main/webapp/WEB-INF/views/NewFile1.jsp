@@ -111,7 +111,7 @@ $('.judge').on('click',function(e){
               }, error : function(jqXHR, status, e) {
                   console.log("글쓰기 에러");
               }
-              
+              asdasd
   		});
               
   	});//글쓰기 ajax End 
