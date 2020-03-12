@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<input type="hidden">
 <body>
 <script type="text/javascript">
 
