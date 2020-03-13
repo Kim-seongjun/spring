@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="pa"/>
+		<item key="selection" value="&lt;a"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&lt;a"/>
+			<item value="&lt;a&gt;"/>
+			<item value="getboard"/>
+			<item value="sfrm"/>
+			<item value="afrm"/>
+			<item value="delete"/>
+			<item value="notices_delete"/>
 			<item value="pa"/>
 			<item value="notices_body"/>
 			<item value="qna_reply"/>
 			<item value="board"/>
 			<item value="id=&apos;board&apos;"/>
 			<item value="id=&quot;board&quot;"/>
-			<item value="afrm"/>
-			<item value="sfrm"/>
 			<item value="texta"/>
 			<item value="text"/>
-			<item value="notices_modal_body"/>
-			<item value="notices_detail"/>
-			<item value="replace"/>
-			<item value="&quot;write&quot;"/>
-			<item value="작성"/>
 		</list>
 		<list key="replacehistory">
 		</list>
