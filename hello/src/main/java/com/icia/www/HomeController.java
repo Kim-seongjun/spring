@@ -3,16 +3,15 @@ package com.icia.www;
 
 import javax.servlet.http.HttpServletResponse;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.icia.www.service.Student;
 
 /**
  * Handles requests for the application home page.
@@ -22,8 +21,6 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	@Autowired
-	private Student std; //= new Student();
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home(HttpServletResponse response) {
@@ -35,12 +32,12 @@ public class HomeController {
 		//일반적으로 서비스 클래스 생성
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("result","loginOK");
-		String sleep = std.sleep();
-		mav.addObject("sleep", sleep);
-		mav.setViewName("home");
+		//String sleep = std.sleep();
+		//mav.addObject("sleep", sleep);
+		//mav.setViewName("home");
 		//model.addAttribute("result","loginOK");
 		
-		return mav;  //home.jsp로 이동
+		return null;  //home.jsp로 이동
 	}
 	
 }
