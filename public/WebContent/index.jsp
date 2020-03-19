@@ -8,7 +8,7 @@
 <style>
 	h3{color:blue;}
 </style>
-<script src="jquery-1.11.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 // 	$.ajax({        
 // 	      url: 'PublicData.do',
@@ -36,26 +36,28 @@
 
 </script>
 <script>
- 
       $.ajax({          
             url: 'PublicData.do',
             type: 'get',
             dataType: 'json',
             success: function(msg){
             	console.log(msg);
-                console.log(msg.response.body.items.item);
+                console.log(msg.response.body.items.item[1]);
                 var myItem = msg.response.body.items.item;
-                console.log(myItem);
+                console.log("111",myItem[2]);
                 
-//                 for(var i=0; i<myItem.length; i++){
-//                     var output = '';
-//                     //console.log(myItem.length);
-//                     output += '<h3>'+ i + '번째 서울 축제 데이터' +'</h3>';
-//                     output += '<h4>'+myItem[i].addr1+'</h4>';
-//                     output += '<h4>'+myItem[i].title+'</h4>';
-//                     output += '<h4>'+myItem[i].tel+'</h4>';
-//                      document.body.innerHTML += output;
-//                 }
+                 for(var i=0; i<myItem.length; i++){
+                     var output = '';
+                     //console.log(myItem.length);
+                     output += '<h3>'+ i + '번째 제ㅜ 축제 데이터' +'</h3>';
+                     output += '<h4>'+myItem[i].addr1+'</h4>';
+                     output += '<input type="text" value="'+myItem[i].addr1+'">';
+                     output += '<h4>'+myItem[i].title+'</h4>';
+                     output += '<input type="text" value="'+myItem[i].title+'">';
+                     output += '<h4>'+myItem[i].tel+'</h4>';
+                     output += '<input type="text" value="'+myItem[i].tel+'">';
+                      document.body.innerHTML += output;
+                 }
             }
         });    
  

@@ -54,3 +54,6 @@
 3월 13, 2020 08:43:55.67 NEW SESSION
 3월 13, 2020 08:43:55.67 [4616:1036:0313/084355.666:ERROR:CONSOLE(330)] "Uncaught TypeError: Cannot set property 'x' of undefined", source: chrome-search://most-visited/single.js (330)
 3월 13, 2020 08:43:55.67 [4616:1036:0313/084355.668:ERROR:CONSOLE(330)] "Uncaught TypeError: Cannot set property 'x' of undefined", source: chrome-search://most-visited/single.js (330)
+
+3월 18, 2020 10:11:33.40 NEW SESSION
+3월 18, 2020 10:11:33.41 [4232:4748:0318/101133.406:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)

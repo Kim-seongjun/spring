@@ -55,10 +55,10 @@ public class PublicData extends HttpServlet {
 		String parameter = "";
 //		serviceKey = URLEncoder.encode(serviceKey,"utf-8");
 		PrintWriter out = response.getWriter();
-		parameter = parameter + "&" + "areaCode=39";
-		parameter = parameter + "&" + "eventStartDate=20200316";
-		parameter = parameter + "&" + "eventEndDate=20200316";
-		parameter = parameter + "&" + "pageNo=1&numOfRows=5000";
+		parameter = parameter + "&" + "areaCode=39"; // + areaCode;
+		//parameter = parameter + "&" + "eventStartDate=20200316";
+		//parameter = parameter + "&" + "eventEndDate=20200316";
+		parameter = parameter + "&" + "pageNo=1&numOfRows=100";
 		parameter = parameter + "&" + "MobileOS=ETC";
 		parameter = parameter + "&" + "MobileApp=aa";
 		parameter = parameter + "&" + "_type=json";
