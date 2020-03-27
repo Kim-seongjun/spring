@@ -71,3 +71,9 @@
 3월 24, 2020 17:09:56.45 [4196:3928:0324/170956.458:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
 3월 24, 2020 17:10:03.07 [4196:3928:0324/171003.079:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
 3월 24, 2020 17:11:33.71 [4196:3928:0324/171133.713:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)
+
+3월 26, 2020 15:30:35.78 NEW SESSION
+3월 26, 2020 15:30:35.78 [2824:5044:0326/153035.763:ERROR:mcs_client.cc(758)] Received close command, resetting connection.
+
+3월 27, 2020 14:39:15.43 NEW SESSION
+3월 27, 2020 14:39:15.43 [760:3304:0327/143915.387:ERROR:CONSOLE(98)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/extensions/ExtensionServer.js (98)

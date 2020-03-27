@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="pagination"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="paginationpaginationqna"/>
+			<item value="pagination"/>
+			<item value="Api"/>
+			<item value="api"/>
+			<item value="noticeswrite"/>
+			<item value="map"/>
+			<item value="sFrm"/>
+			<item value="judge"/>
+			<item value="&apos;judge&apos;"/>
+			<item value="&quot;judge&quot;"/>
+			<item value="class=&quot;judge&quot;"/>
+			<item value="승인"/>
+			<item value="form"/>
 			<item value="apite"/>
 			<item value="href"/>
-			<item value="pagination"/>
-			<item value="listShow"/>
-			<item value="container"/>
-			<item value="cpntainer"/>
-			<item value="aDataSort"/>
-			<item value="&quot;) {"/>
-			<item value="sigunguCode =="/>
-			<item value="sigungucode"/>
-			<item value="sigunguCode"/>
-			<item value="number"/>
-			<item value="몫"/>
-			<item value="576-962"/>
-			<item value="tel"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&quot;)) {"/>
