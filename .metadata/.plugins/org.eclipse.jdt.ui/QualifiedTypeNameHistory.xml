@@ -39,7 +39,6 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="icia.project.gabom.dto.AdminSns"/>
 <fullyQualifiedTypeName name="icia.project.gabom.service.SnsPostDelete"/>
-<fullyQualifiedTypeName name="java.security.Principal"/>
 <fullyQualifiedTypeName name="icia.project.gabom.service.SnsCommentDelete"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.Object"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="icia.project.gabom.dto.Adminnotices"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.security.Principal"/>
 </qualifiedTypeNameHistroy>
