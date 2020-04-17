@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="noticesmodal"/>
+		<item key="selection" value="houseApproved"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="houseApproved"/>
 			<item value="noticesmodal"/>
 			<item value="allnotices"/>
 			<item value="judgeplanshare"/>
@@ -22,7 +23,6 @@
 			<item value="회원 회원"/>
 			<item value="소모임"/>
 			<item value="date"/>
-			<item value="t_list"/>
 		</list>
 		<list key="replacehistory">
 			<item value="data_table"/>
